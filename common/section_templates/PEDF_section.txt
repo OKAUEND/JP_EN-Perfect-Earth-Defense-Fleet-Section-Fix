@@ -1,941 +1,941 @@
 
 
-ship_section_template = {
-	key = "PEDF_TITAN_yamato"
+# ship_section_template = {
+# 	key = "PEDF_TITAN_yamato"
 
-	ship_size = titan
+# 	ship_size = titan
 
-	#NSC
-	ship_size = Dreadnought
-	ship_size = Flagship
+# 	#NSC
+# 	ship_size = Dreadnought
+# 	ship_size = Flagship
 
-	#RS
+# 	#RS
 
-	ship_size = rs_dreadnought
-	ship_size = rs_heavy_dreadnought
+# 	ship_size = rs_dreadnought
+# 	ship_size = rs_heavy_dreadnought
 
 
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_yamato_entity"
-	icon = "GFX_ship_part_core_bow"
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_yamato_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_titanic_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_yamato_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_yamato_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "PEDF_yamato_turret_L_back"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "PEDF_yamato_turret_M_front"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "PEDF_yamato_turret_M_back"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_yamato_turret_S_left"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_yamato_turret_S_left"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "PEDF_yamato_turret_S_left"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "PEDF_yamato_turret_S_left"
-		locatorname = "small_gun_04"
-	}
-	component_slot = {
-		name = "SMALL_GUN_05"
-		template = "PEDF_yamato_turret_S_right"
-		locatorname = "small_gun_05"
-	}
-	component_slot = {
-		name = "SMALL_GUN_06"
-		template = "PEDF_yamato_turret_S_right"
-		locatorname = "small_gun_06"
-	}
-	component_slot = {
-		name = "SMALL_GUN_07"
-		template = "PEDF_yamato_turret_S_right"
-		locatorname = "small_gun_07"
-	}
-	component_slot = {
-		name = "SMALL_GUN_08"
-		template = "PEDF_yamato_turret_S_right"
-		locatorname = "small_gun_08"
-	}
-	component_slot = {
-		name = "SMALL_GUN_10"
-		template = "PEDF_yamato_turret_PD_left"
-		locatorname = "small_gun_10"
-	}
-	component_slot = {
-		name = "SMALL_GUN_11"
-		template = "PEDF_yamato_turret_PD_left"
-		locatorname = "small_gun_11"
-	}
-	component_slot = {
-		name = "SMALL_GUN_12"
-		template = "PEDF_yamato_turret_PD_left"
-		locatorname = "small_gun_12"
-	}
-	component_slot = {
-		name = "SMALL_GUN_13"
-		template = "PEDF_yamato_turret_PD_left"
-		locatorname = "small_gun_13"
-	}
-	component_slot = {
-		name = "SMALL_GUN_14"
-		template = "PEDF_yamato_turret_PD_right"
-		locatorname = "small_gun_14"
-	}
-	component_slot = {
-		name = "SMALL_GUN_15"
-		template = "PEDF_yamato_turret_PD_right"
-		locatorname = "small_gun_15"
-	}
-	component_slot = {
-		name = "SMALL_GUN_16"
-		template = "PEDF_yamato_turret_PD_right"
-		locatorname = "small_gun_16"
-	}
-	component_slot = {
-		name = "SMALL_GUN_17"
-		template = "PEDF_yamato_turret_PD_right"
-		locatorname = "small_gun_17"
-	}
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_titanic_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_yamato_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_yamato_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_03"
+# 		template = "PEDF_yamato_turret_L_back"
+# 		locatorname = "large_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "PEDF_yamato_turret_M_front"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "PEDF_yamato_turret_M_back"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_yamato_turret_S_left"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_yamato_turret_S_left"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "PEDF_yamato_turret_S_left"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "PEDF_yamato_turret_S_left"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_05"
+# 		template = "PEDF_yamato_turret_S_right"
+# 		locatorname = "small_gun_05"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_06"
+# 		template = "PEDF_yamato_turret_S_right"
+# 		locatorname = "small_gun_06"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_07"
+# 		template = "PEDF_yamato_turret_S_right"
+# 		locatorname = "small_gun_07"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_08"
+# 		template = "PEDF_yamato_turret_S_right"
+# 		locatorname = "small_gun_08"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_10"
+# 		template = "PEDF_yamato_turret_PD_left"
+# 		locatorname = "small_gun_10"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_11"
+# 		template = "PEDF_yamato_turret_PD_left"
+# 		locatorname = "small_gun_11"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_12"
+# 		template = "PEDF_yamato_turret_PD_left"
+# 		locatorname = "small_gun_12"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_13"
+# 		template = "PEDF_yamato_turret_PD_left"
+# 		locatorname = "small_gun_13"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_14"
+# 		template = "PEDF_yamato_turret_PD_right"
+# 		locatorname = "small_gun_14"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_15"
+# 		template = "PEDF_yamato_turret_PD_right"
+# 		locatorname = "small_gun_15"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_16"
+# 		template = "PEDF_yamato_turret_PD_right"
+# 		locatorname = "small_gun_16"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_17"
+# 		template = "PEDF_yamato_turret_PD_right"
+# 		locatorname = "small_gun_17"
+# 	}
 
-	aux_utility_slots = 1
+# 	aux_utility_slots = 1
 	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
-ship_section_template = {
-	key = "PEDF_TITAN_ginga"
+# ship_section_template = {
+# 	key = "PEDF_TITAN_ginga"
 
-	ship_size = titan
+# 	ship_size = titan
 
-	#NSC
-	ship_size = Dreadnought
-	ship_size = Flagship
+# 	#NSC
+# 	ship_size = Dreadnought
+# 	ship_size = Flagship
 
-	#RS
-	ship_size = rs_dreadnought
-	ship_size = rs_heavy_dreadnought
+# 	#RS
+# 	ship_size = rs_dreadnought
+# 	ship_size = rs_heavy_dreadnought
 
 
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_ginga_entity"
-	icon = "GFX_ship_part_core_bow"
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_ginga_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_titanic_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_ginga_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_ginga_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "PEDF_ginga_turret_L_back"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_05"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_05"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_06"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_06"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_07"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_07"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_08"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_08"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_09"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_09"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_10"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_10"
-	}
-	aux_utility_slots = 1
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_titanic_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_ginga_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_ginga_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_03"
+# 		template = "PEDF_ginga_turret_L_back"
+# 		locatorname = "large_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_05"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_05"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_06"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_06"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_07"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_07"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_08"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_08"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_09"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_09"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_10"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_10"
+# 	}
+# 	aux_utility_slots = 1
 	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
 
 
 
 
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_andromeda"
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_andromeda"
 
 
-	ship_size = battleship
+# 	ship_size = battleship
 
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
 
 
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_andromeda_entity"
-	icon = "GFX_ship_part_core_bow"
+# 	#RS
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_andromeda_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_02"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_andromeda_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_andromeda_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "PEDF_andromeda_turret_L_back"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "LARGE_GUN_04"
-		template = "PEDF_andromeda_turret_L_back"
-		locatorname = "large_gun_04"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_04"
-	}
-	aux_utility_slots = 1
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_02"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_andromeda_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_andromeda_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_03"
+# 		template = "PEDF_andromeda_turret_L_back"
+# 		locatorname = "large_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_04"
+# 		template = "PEDF_andromeda_turret_L_back"
+# 		locatorname = "large_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_04"
+# 	}
+# 	aux_utility_slots = 1
 	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
 
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_andromeda_Blue"
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_andromeda_Blue"
 
-	ship_size = battleship
+# 	ship_size = battleship
 
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
 
 
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_andromeda_Blue_entity"
-	icon = "GFX_ship_part_core_bow"
+# 	#RS
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_andromeda_Blue_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_02"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_andromeda_Blue_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_andromeda_Blue_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "PEDF_andromeda_Blue_turret_L_back"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "LARGE_GUN_04"
-		template = "PEDF_andromeda_Blue_turret_L_back"
-		locatorname = "large_gun_04"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_04"
-	}
-	aux_utility_slots = 1
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_02"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_andromeda_Blue_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_andromeda_Blue_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_03"
+# 		template = "PEDF_andromeda_Blue_turret_L_back"
+# 		locatorname = "large_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_04"
+# 		template = "PEDF_andromeda_Blue_turret_L_back"
+# 		locatorname = "large_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_04"
+# 	}
+# 	aux_utility_slots = 1
 	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
 
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_andromeda_AI"
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_andromeda_AI"
 
-	ship_size = battleship
+# 	ship_size = battleship
 
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
 
 
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_andromeda_AI_entity"
-	icon = "GFX_ship_part_core_bow"
+# 	#RS
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_andromeda_AI_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_02"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_andromeda_AI_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_andromeda_AI_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "PEDF_andromeda_AI_turret_L_back"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "LARGE_GUN_04"
-		template = "PEDF_andromeda_AI_turret_L_back"
-		locatorname = "large_gun_04"
-	}
-	component_slot = {
-		name = "LARGE_GUN_05"
-		template = "PEDF_dreadnought_ED_turret_L_front"
-		locatorname = "large_gun_05"
-	}
-	component_slot = {
-		name = "LARGE_GUN_06"
-		template = "PEDF_dreadnought_ED_turret_L_front"
-		locatorname = "large_gun_06"
-	}
-	component_slot = {
-		name = "LARGE_GUN_07"
-		template = "PEDF_dreadnought_ED_turret_L_front"
-		locatorname = "large_gun_07"
-	}
-	component_slot = {
-		name = "LARGE_GUN_08"
-		template = "PEDF_dreadnought_ED_turret_L_front"
-		locatorname = "large_gun_08"
-	}
-	component_slot = {
-		name = "LARGE_GUN_09"
-		template = "PEDF_dreadnought_ED_turret_L_back"
-		locatorname = "large_gun_09"
-	}
-	component_slot = {
-		name = "LARGE_GUN_10"
-		template = "PEDF_dreadnought_ED_turret_L_back"
-		locatorname = "large_gun_10"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_04"
-	}
-	aux_utility_slots = 1
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_02"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_andromeda_AI_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_andromeda_AI_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_03"
+# 		template = "PEDF_andromeda_AI_turret_L_back"
+# 		locatorname = "large_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_04"
+# 		template = "PEDF_andromeda_AI_turret_L_back"
+# 		locatorname = "large_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_05"
+# 		template = "PEDF_dreadnought_ED_turret_L_front"
+# 		locatorname = "large_gun_05"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_06"
+# 		template = "PEDF_dreadnought_ED_turret_L_front"
+# 		locatorname = "large_gun_06"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_07"
+# 		template = "PEDF_dreadnought_ED_turret_L_front"
+# 		locatorname = "large_gun_07"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_08"
+# 		template = "PEDF_dreadnought_ED_turret_L_front"
+# 		locatorname = "large_gun_08"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_09"
+# 		template = "PEDF_dreadnought_ED_turret_L_back"
+# 		locatorname = "large_gun_09"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_10"
+# 		template = "PEDF_dreadnought_ED_turret_L_back"
+# 		locatorname = "large_gun_10"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_04"
+# 	}
+# 	aux_utility_slots = 1
 	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
 
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_amaterasu"
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_amaterasu"
 
-	ship_size = battleship
+# 	ship_size = battleship
 
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
 
 
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_amaterasu_entity"
-	icon = "GFX_ship_part_core_bow"
+# 	#RS
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_amaterasu_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_02"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_andromeda_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_andromeda_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "PEDF_andromeda_turret_L_front"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "LARGE_GUN_04"
-		template = "PEDF_andromeda_turret_L_back"
-		locatorname = "large_gun_04"
-	}
-	component_slot = {
-		name = "LARGE_GUN_05"
-		template = "PEDF_amaterasu_turret_L_front"
-		locatorname = "large_gun_05"
-	}
-	component_slot = {
-		name = "LARGE_GUN_06"
-		template = "PEDF_amaterasu_turret_L_front"
-		locatorname = "large_gun_06"
-	}
-	component_slot = {
-		name = "LARGE_GUN_07"
-		template = "PEDF_amaterasu_turret_L_front"
-		locatorname = "large_gun_07"
-	}
-	component_slot = {
-		name = "LARGE_GUN_08"
-		template = "PEDF_amaterasu_turret_L_front"
-		locatorname = "large_gun_08"
-	}
-	component_slot = {
-		name = "LARGE_GUN_09"
-		template = "PEDF_amaterasu_turret_L_front"
-		locatorname = "large_gun_09"
-	}
-	component_slot = {
-		name = "LARGE_GUN_10"
-		template = "PEDF_amaterasu_turret_L_front"
-		locatorname = "large_gun_10"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_04"
-	}
-	aux_utility_slots = 1
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_02"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_andromeda_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_andromeda_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_03"
+# 		template = "PEDF_andromeda_turret_L_front"
+# 		locatorname = "large_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_04"
+# 		template = "PEDF_andromeda_turret_L_back"
+# 		locatorname = "large_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_05"
+# 		template = "PEDF_amaterasu_turret_L_front"
+# 		locatorname = "large_gun_05"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_06"
+# 		template = "PEDF_amaterasu_turret_L_front"
+# 		locatorname = "large_gun_06"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_07"
+# 		template = "PEDF_amaterasu_turret_L_front"
+# 		locatorname = "large_gun_07"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_08"
+# 		template = "PEDF_amaterasu_turret_L_front"
+# 		locatorname = "large_gun_08"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_09"
+# 		template = "PEDF_amaterasu_turret_L_front"
+# 		locatorname = "large_gun_09"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_10"
+# 		template = "PEDF_amaterasu_turret_L_front"
+# 		locatorname = "large_gun_10"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_04"
+# 	}
+# 	aux_utility_slots = 1
 	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
 
 
 
 
-ship_section_template = {
-	key = "PEDF_TITAN_yamanamispecial"
+# ship_section_template = {
+# 	key = "PEDF_TITAN_yamanamispecial"
 
-	ship_size = titan
+# 	ship_size = titan
 
-	#NSC
-	ship_size = Dreadnought
-	ship_size = Flagship
+# 	#NSC
+# 	ship_size = Dreadnought
+# 	ship_size = Flagship
 
-	#RS
-	ship_size = rs_dreadnought
-	ship_size = rs_heavy_dreadnought
+# 	#RS
+# 	ship_size = rs_dreadnought
+# 	ship_size = rs_heavy_dreadnought
 
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_yamanamispecial_entity"
-	icon = "GFX_ship_part_core_bow"
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_yamanamispecial_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_titanic_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_yamanamispecial_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_yamanamispecial_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "PEDF_yamanamispecial_turret_L_back"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "LARGE_GUN_04"
-		template = "PEDF_yamanamispecial_turret_L_back"
-		locatorname = "large_gun_04"
-	}
-	component_slot = {
-		name = "LARGE_GUN_05"
-		template = "PEDF_dreadnought_MB_turret_L_front"
-		locatorname = "large_gun_05"
-	}
-	component_slot = {
-		name = "LARGE_GUN_06"
-		template = "PEDF_dreadnought_MB_turret_L_front"
-		locatorname = "large_gun_06"
-	}
-	component_slot = {
-		name = "LARGE_GUN_07"
-		template = "PEDF_dreadnought_MB_turret_L_front"
-		locatorname = "large_gun_07"
-	}
-	component_slot = {
-		name = "LARGE_GUN_08"
-		template = "PEDF_dreadnought_MB_turret_L_front"
-		locatorname = "large_gun_08"
-	}
-	component_slot = {
-		name = "LARGE_GUN_09"
-		template = "PEDF_dreadnought_MB_turret_L_back"
-		locatorname = "large_gun_09"
-	}
-	component_slot = {
-		name = "LARGE_GUN_10"
-		template = "PEDF_dreadnought_MB_turret_L_back"
-		locatorname = "large_gun_10"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_04"
-	}
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_titanic_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_yamanamispecial_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_yamanamispecial_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_03"
+# 		template = "PEDF_yamanamispecial_turret_L_back"
+# 		locatorname = "large_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_04"
+# 		template = "PEDF_yamanamispecial_turret_L_back"
+# 		locatorname = "large_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_05"
+# 		template = "PEDF_dreadnought_MB_turret_L_front"
+# 		locatorname = "large_gun_05"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_06"
+# 		template = "PEDF_dreadnought_MB_turret_L_front"
+# 		locatorname = "large_gun_06"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_07"
+# 		template = "PEDF_dreadnought_MB_turret_L_front"
+# 		locatorname = "large_gun_07"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_08"
+# 		template = "PEDF_dreadnought_MB_turret_L_front"
+# 		locatorname = "large_gun_08"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_09"
+# 		template = "PEDF_dreadnought_MB_turret_L_back"
+# 		locatorname = "large_gun_09"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_10"
+# 		template = "PEDF_dreadnought_MB_turret_L_back"
+# 		locatorname = "large_gun_10"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_04"
+# 	}
 
-	aux_utility_slots = 2
+# 	aux_utility_slots = 2
 	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
 
@@ -1098,1699 +1098,1699 @@ ship_section_template = {
 
 
 
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_antares"
-
-
-	ship_size = battleship
-
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
-
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_antares_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_02"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_andromeda_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_andromeda_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_04"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_01"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_01"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_02"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_02"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_03"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_03"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_04"
-		template = "large_strike_craft"
-		rotation = -90
-		locatorname = "strike_craft_locator_04"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_05"
-		template = "large_strike_craft"
-		rotation = -90
-		locatorname = "strike_craft_locator_05"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_06"
-		template = "large_strike_craft"
-		rotation = -90
-		locatorname = "strike_craft_locator_06"
-	}
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_apollonome"
-
-
-	ship_size = battleship
-
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
-
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_apollonome_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_02"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_andromeda_Blue_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_andromeda_Blue_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_04"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_01"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_01"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_02"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_02"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_03"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_03"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_04"
-		template = "large_strike_craft"
-		rotation = -90
-		locatorname = "strike_craft_locator_04"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_05"
-		template = "large_strike_craft"
-		rotation = -90
-		locatorname = "strike_craft_locator_05"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_06"
-		template = "large_strike_craft"
-		rotation = -90
-		locatorname = "strike_craft_locator_06"
-	}
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-
-
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_Dreadnought"
-
-	ship_size = battleship
-
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
-
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_dreadnought_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_dreadnought_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_dreadnought_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "PEDF_dreadnought_turret_L_back"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_04"
-	}
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_Dreadnought_ED"
-
-
-	ship_size = battleship
-
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
-
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_dreadnought_ED_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_dreadnought_ED_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_dreadnought_ED_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "PEDF_dreadnought_ED_turret_L_back"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_04"
-	}
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_Dreadnought_MB"
-
-	ship_size = battleship
-
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
-
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_dreadnought_MB_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_dreadnought_MB_turret_L_front"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_dreadnought_MB_turret_L_front"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "PEDF_dreadnought_MB_turret_L_back"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_dreadnought_turret_PD"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "invisible_point_defence_turret"
-		locatorname = "small_gun_04"
-	}
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-
-
-ship_section_template = {
-	key = "PEDF_CRUISER_escort"
-
-
-	ship_size = cruiser
-
-	#NSC
-	ship_size = StrikeCruiser
-	ship_size = escortcarrier
-
-	#RS
-	ship_size = rs_support_cruiser
-	ship_size = rs_ea_cruiser
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_escort_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "PEDF_escort_turret_M_upper"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "PEDF_escort_turret_M_upper"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "PEDF_escort_turret_M_under"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_05"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_05"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_06"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_06"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_07"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_07"
-	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_escort_turret_PD"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_escort_turret_PD"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "PEDF_escort_turret_PD"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "PEDF_escort_turret_PD"
-		locatorname = "small_gun_04"
-	}
-
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-
-ship_section_template = {
-	key = "PEDF_CRUISER_patrol"
-
-
-	ship_size = cruiser
-
-	#NSC
-	ship_size = StrikeCruiser
-	ship_size = escortcarrier
-
-	#RS
-	ship_size = rs_support_cruiser
-	ship_size = rs_ea_cruiser
-
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_patrol_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "PEDF_patrol_turret_M_upper"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "PEDF_patrol_turret_M_upper"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "PEDF_patrol_turret_M_under"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_05"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_05"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_06"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_06"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_07"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_07"
-	}
-
-	aux_utility_slots = 2
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-
-
-
-ship_section_template = {
-	key = "PEDF_CRUISER_ticonderoga"
-
-
-	ship_size = cruiser
-
-	#NSC
-	ship_size = StrikeCruiser
-	ship_size = escortcarrier
-
-	#RS
-	ship_size = rs_support_cruiser
-	ship_size = rs_ea_cruiser
-
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_ticonderoga_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_invisible_large_fixed"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "PEDF_ticonderoga_turret_M1"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "PEDF_ticonderoga_turret_M2"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "PEDF_ticonderoga_turret_M3_front"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "PEDF_ticonderoga_turret_M3_back"
-		locatorname = "medium_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_05"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_05"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_06"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_06"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_07"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_07"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_08"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_08"
-	}
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-
-
-ship_section_template = {
-	key = "PEDF_CRUISER_ticonderoga2"
-
-
-	ship_size = cruiser
-
-	#NSC
-	ship_size = StrikeCruiser
-	ship_size = escortcarrier
-
-	#RS
-	ship_size = rs_support_cruiser
-	ship_size = rs_ea_cruiser
-
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_ticonderoga_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "PEDF_ticonderoga_turret_M1"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "PEDF_ticonderoga_turret_M2"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "PEDF_ticonderoga_turret_M3_front"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "PEDF_ticonderoga_turret_M3_back"
-		locatorname = "medium_gun_04"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_05"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_05"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_06"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_06"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_07"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_07"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_08"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_08"
-	}
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-
-
-ship_section_template = {
-	key = "PEDF_DESTROYER_saratoga"
-	ship_size = destroyer
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_saratoga_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_saratoga_turret_M1_front"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_saratoga_turret_M1_back"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "PEDF_saratoga_turret_M2"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "PEDF_invisible_medium_fixed"
-		locatorname = "medium_gun_03"
-	}
-	
-	small_utility_slots = 2
-	aux_utility_slots = 1
-
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-ship_section_template = {
-	key = "PEDF_DESTROYER_murasame"
-	ship_size = destroyer
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_murasame_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_murasame_turret_M1_front"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_murasame_turret_M1_back"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "PEDF_murasame_turret_M2"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "PEDF_invisible_medium_fixed"
-		locatorname = "medium_gun_03"
-	}
-
-	small_utility_slots = 2
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-
-
-
-
-ship_section_template = {
-	key = "PEDF_DESTROYER_saratoga2"
-	ship_size = destroyer
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_saratoga_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_saratoga_turret_M1_front"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_saratoga_turret_M1_back"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "PEDF_saratoga_turret_M2"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_extra_large_fixed"
-		locatorname = "medium_gun_03"
-	}
-	
-	small_utility_slots = 2
-	aux_utility_slots = 1
-
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-ship_section_template = {
-	key = "PEDF_DESTROYER_murasame2"
-	ship_size = destroyer
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_murasame_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_murasame_turret_M1_front"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_murasame_turret_M1_back"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "PEDF_murasame_turret_M2"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_extra_large_fixed"
-		locatorname = "medium_gun_03"
-	}
-
-	small_utility_slots = 2
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-
-
-
-
-
-ship_section_template = {
-	key = "PEDF_CORVETTE_isokaze"
-	ship_size = frigate
-	fits_on_slot = mid
-	should_draw_components = yes
-	entity = "PEDF_isokaze_entity"
-	icon = "GFX_ship_part_core_mid"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_isokaze_turret_S1"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_isokaze_turret_S2"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "medium_missile_turret"
-		locatorname = "medium_gun_01"
-	}
-
-	small_utility_slots = 3
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-ship_section_template = {
-	key = "PEDF_CORVETTE_yukikaze"
-	ship_size = corvette
-	fits_on_slot = mid
-	should_draw_components = yes
-	entity = "PEDF_yukikaze_entity"
-	icon = "GFX_ship_part_core_mid"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_yukikaze_turret_S1"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_yukikaze_turret_S2"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "PEDF_invisible_medium_fixed"
-		locatorname = "medium_gun_01"
-	}
-
-	small_utility_slots = 3
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ship_section_template = {
-	key = "PEDF_CRUISER_oldcruiser"
-
-
-	ship_size = cruiser
-
-	#NSC
-	ship_size = StrikeCruiser
-	ship_size = escortcarrier
-
-	#RS
-	ship_size = rs_support_cruiser
-	ship_size = rs_ea_cruiser
-
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_oldcruiser_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "PEDF_oldcruiser_turret_M1"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "PEDF_oldcruiser_turret_M1"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "PEDF_oldcruiser_turret_M2"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_oldcruiser_turret_L"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_oldcruiser_turret_L"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_missile_fixed"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_05"
-		template = "invisible_missile_fixed"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_06"
-		template = "invisible_missile_fixed"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_07"
-		template = "invisible_missile_fixed"
-		locatorname = "small_gun_04"
-	}
-
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
-
-ship_section_template = {
-	key = "PEDF_DESTROYER_olddestroyer"
-	ship_size = destroyer
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_olddestroyer_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_olddestroyer_turret_S_upper"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_olddestroyer_turret_S_under"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "PEDF_olddestroyer_turret_PD"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "SMALL_GUN_04"
-		template = "PEDF_olddestroyer_turret_PD"
-		locatorname = "small_gun_04"
-	}
-	component_slot = {
-		name = "SMALL_GUN_05"
-		template = "PEDF_olddestroyer_turret_PD"
-		locatorname = "small_gun_05"
-	}
-	component_slot = {
-		name = "SMALL_GUN_06"
-		template = "PEDF_olddestroyer_turret_PD"
-		locatorname = "small_gun_06"
-	}
-	component_slot = {
-		name = "SMALL_GUN_07"
-		template = "invisible_small_turret"
-		locatorname = "small_gun_07"
-	}
-	component_slot = {
-		name = "SMALL_GUN_08"
-		template = "invisible_small_turret"
-		locatorname = "small_gun_08"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_04"
-	}
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_oldlightcarrier"
-
-
-
-	ship_size = battleship
-
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
-
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_oldlightcarrier_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_oldlightcarrier_turret_L"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_oldlightcarrier_turret_L"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_missile_fixed"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_01"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_01"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_02"
-		template = "large_strike_craft"
-		rotation = -90
-		locatorname = "strike_craft_locator_02"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_03"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_03"
-	}
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_oldbattlecarrier"
-
-
-
-	ship_size = battleship
-
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
-
-
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_oldbattlecarrier_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "PEDF_oldbattlecarrier_turret_L"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "PEDF_oldbattlecarrier_turret_L"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_01"
-		template = "large_strike_craft"
-		rotation = 0
-		locatorname = "strike_craft_locator_01"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_02"
-		template = "large_strike_craft"
-		rotation = 0
-		locatorname = "strike_craft_locator_02"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_03"
-		template = "large_strike_craft"
-		rotation = 0
-		locatorname = "strike_craft_locator_03"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_04"
-		template = "large_strike_craft"
-		rotation = 0
-		locatorname = "strike_craft_locator_04"
-	}
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_antares"
+
+
+# 	ship_size = battleship
+
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
+
+
+# 	#RS
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_antares_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_02"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_andromeda_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_andromeda_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_01"
+# 		template = "large_strike_craft"
+# 		rotation = 90
+# 		locatorname = "strike_craft_locator_01"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_02"
+# 		template = "large_strike_craft"
+# 		rotation = 90
+# 		locatorname = "strike_craft_locator_02"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_03"
+# 		template = "large_strike_craft"
+# 		rotation = 90
+# 		locatorname = "strike_craft_locator_03"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_04"
+# 		template = "large_strike_craft"
+# 		rotation = -90
+# 		locatorname = "strike_craft_locator_04"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_05"
+# 		template = "large_strike_craft"
+# 		rotation = -90
+# 		locatorname = "strike_craft_locator_05"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_06"
+# 		template = "large_strike_craft"
+# 		rotation = -90
+# 		locatorname = "strike_craft_locator_06"
+# 	}
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_apollonome"
+
+
+# 	ship_size = battleship
+
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
+
+
+# 	#RS
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_apollonome_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_02"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_andromeda_Blue_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_andromeda_Blue_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_01"
+# 		template = "large_strike_craft"
+# 		rotation = 90
+# 		locatorname = "strike_craft_locator_01"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_02"
+# 		template = "large_strike_craft"
+# 		rotation = 90
+# 		locatorname = "strike_craft_locator_02"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_03"
+# 		template = "large_strike_craft"
+# 		rotation = 90
+# 		locatorname = "strike_craft_locator_03"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_04"
+# 		template = "large_strike_craft"
+# 		rotation = -90
+# 		locatorname = "strike_craft_locator_04"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_05"
+# 		template = "large_strike_craft"
+# 		rotation = -90
+# 		locatorname = "strike_craft_locator_05"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_06"
+# 		template = "large_strike_craft"
+# 		rotation = -90
+# 		locatorname = "strike_craft_locator_06"
+# 	}
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_Dreadnought"
+
+# 	ship_size = battleship
+
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
+
+
+# 	#RS
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_dreadnought_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_dreadnought_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_dreadnought_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_03"
+# 		template = "PEDF_dreadnought_turret_L_back"
+# 		locatorname = "large_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	aux_utility_slots = 1
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_Dreadnought_ED"
+
+
+# 	ship_size = battleship
+
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
+
+
+# 	#RS
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_dreadnought_ED_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_dreadnought_ED_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_dreadnought_ED_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_03"
+# 		template = "PEDF_dreadnought_ED_turret_L_back"
+# 		locatorname = "large_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	aux_utility_slots = 1
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_Dreadnought_MB"
+
+# 	ship_size = battleship
+
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
+
+
+# 	#RS
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_dreadnought_MB_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_dreadnought_MB_turret_L_front"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_dreadnought_MB_turret_L_front"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_03"
+# 		template = "PEDF_dreadnought_MB_turret_L_back"
+# 		locatorname = "large_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_dreadnought_turret_PD"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "invisible_point_defence_turret"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	aux_utility_slots = 1
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_CRUISER_escort"
+
+
+# 	ship_size = cruiser
+
+# 	#NSC
+# 	ship_size = StrikeCruiser
+# 	ship_size = escortcarrier
+
+# 	#RS
+# 	ship_size = rs_support_cruiser
+# 	ship_size = rs_ea_cruiser
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_escort_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "PEDF_escort_turret_M_upper"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "PEDF_escort_turret_M_upper"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "PEDF_escort_turret_M_under"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_05"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_05"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_06"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_06"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_07"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_07"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_escort_turret_PD"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_escort_turret_PD"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "PEDF_escort_turret_PD"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "PEDF_escort_turret_PD"
+# 		locatorname = "small_gun_04"
+# 	}
+
+# 	aux_utility_slots = 1
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_CRUISER_patrol"
+
+
+# 	ship_size = cruiser
+
+# 	#NSC
+# 	ship_size = StrikeCruiser
+# 	ship_size = escortcarrier
+
+# 	#RS
+# 	ship_size = rs_support_cruiser
+# 	ship_size = rs_ea_cruiser
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_patrol_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "PEDF_patrol_turret_M_upper"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "PEDF_patrol_turret_M_upper"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "PEDF_patrol_turret_M_under"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_05"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_05"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_06"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_06"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_07"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_07"
+# 	}
+
+# 	aux_utility_slots = 2
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_CRUISER_ticonderoga"
+
+
+# 	ship_size = cruiser
+
+# 	#NSC
+# 	ship_size = StrikeCruiser
+# 	ship_size = escortcarrier
+
+# 	#RS
+# 	ship_size = rs_support_cruiser
+# 	ship_size = rs_ea_cruiser
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_ticonderoga_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_invisible_large_fixed"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "PEDF_ticonderoga_turret_M1"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "PEDF_ticonderoga_turret_M2"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "PEDF_ticonderoga_turret_M3_front"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "PEDF_ticonderoga_turret_M3_back"
+# 		locatorname = "medium_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_05"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_05"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_06"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_06"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_07"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_07"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_08"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_08"
+# 	}
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_CRUISER_ticonderoga2"
+
+
+# 	ship_size = cruiser
+
+# 	#NSC
+# 	ship_size = StrikeCruiser
+# 	ship_size = escortcarrier
+
+# 	#RS
+# 	ship_size = rs_support_cruiser
+# 	ship_size = rs_ea_cruiser
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_ticonderoga_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "PEDF_ticonderoga_turret_M1"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "PEDF_ticonderoga_turret_M2"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "PEDF_ticonderoga_turret_M3_front"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "PEDF_ticonderoga_turret_M3_back"
+# 		locatorname = "medium_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_05"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_05"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_06"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_06"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_07"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_07"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_08"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_08"
+# 	}
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_DESTROYER_saratoga"
+# 	ship_size = destroyer
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_saratoga_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_saratoga_turret_M1_front"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_saratoga_turret_M1_back"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "PEDF_saratoga_turret_M2"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "PEDF_invisible_medium_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+	
+# 	small_utility_slots = 2
+# 	aux_utility_slots = 1
+
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_DESTROYER_murasame"
+# 	ship_size = destroyer
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_murasame_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_murasame_turret_M1_front"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_murasame_turret_M1_back"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "PEDF_murasame_turret_M2"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "PEDF_invisible_medium_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+
+# 	small_utility_slots = 2
+# 	aux_utility_slots = 1
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_DESTROYER_saratoga2"
+# 	ship_size = destroyer
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_saratoga_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_saratoga_turret_M1_front"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_saratoga_turret_M1_back"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "PEDF_saratoga_turret_M2"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+	
+# 	small_utility_slots = 2
+# 	aux_utility_slots = 1
+
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_DESTROYER_murasame2"
+# 	ship_size = destroyer
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_murasame_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_murasame_turret_M1_front"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_murasame_turret_M1_back"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "PEDF_murasame_turret_M2"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "medium_gun_03"
+# 	}
+
+# 	small_utility_slots = 2
+# 	aux_utility_slots = 1
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_CORVETTE_isokaze"
+# 	ship_size = frigate
+# 	fits_on_slot = mid
+# 	should_draw_components = yes
+# 	entity = "PEDF_isokaze_entity"
+# 	icon = "GFX_ship_part_core_mid"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_isokaze_turret_S1"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_isokaze_turret_S2"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "medium_missile_turret"
+# 		locatorname = "medium_gun_01"
+# 	}
+
+# 	small_utility_slots = 3
+# 	aux_utility_slots = 1
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_CORVETTE_yukikaze"
+# 	ship_size = corvette
+# 	fits_on_slot = mid
+# 	should_draw_components = yes
+# 	entity = "PEDF_yukikaze_entity"
+# 	icon = "GFX_ship_part_core_mid"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_yukikaze_turret_S1"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_yukikaze_turret_S2"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "PEDF_invisible_medium_fixed"
+# 		locatorname = "medium_gun_01"
+# 	}
+
+# 	small_utility_slots = 3
+# 	aux_utility_slots = 1
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_CRUISER_oldcruiser"
+
+
+# 	ship_size = cruiser
+
+# 	#NSC
+# 	ship_size = StrikeCruiser
+# 	ship_size = escortcarrier
+
+# 	#RS
+# 	ship_size = rs_support_cruiser
+# 	ship_size = rs_ea_cruiser
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_oldcruiser_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "PEDF_oldcruiser_turret_M1"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "PEDF_oldcruiser_turret_M1"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "PEDF_oldcruiser_turret_M2"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_oldcruiser_turret_L"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_oldcruiser_turret_L"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_05"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_06"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_07"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "small_gun_04"
+# 	}
+
+# 	aux_utility_slots = 1
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+
+
+
+# ship_section_template = {
+# 	key = "PEDF_DESTROYER_olddestroyer"
+# 	ship_size = destroyer
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_olddestroyer_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "SMALL_GUN_01"
+# 		template = "PEDF_olddestroyer_turret_S_upper"
+# 		locatorname = "small_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_02"
+# 		template = "PEDF_olddestroyer_turret_S_under"
+# 		locatorname = "small_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_03"
+# 		template = "PEDF_olddestroyer_turret_PD"
+# 		locatorname = "small_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_04"
+# 		template = "PEDF_olddestroyer_turret_PD"
+# 		locatorname = "small_gun_04"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_05"
+# 		template = "PEDF_olddestroyer_turret_PD"
+# 		locatorname = "small_gun_05"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_06"
+# 		template = "PEDF_olddestroyer_turret_PD"
+# 		locatorname = "small_gun_06"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_07"
+# 		template = "invisible_small_turret"
+# 		locatorname = "small_gun_07"
+# 	}
+# 	component_slot = {
+# 		name = "SMALL_GUN_08"
+# 		template = "invisible_small_turret"
+# 		locatorname = "small_gun_08"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_03"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_03"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_04"
+# 		template = "invisible_medium_turret"
+# 		locatorname = "medium_gun_04"
+# 	}
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_oldlightcarrier"
+
+
+
+# 	ship_size = battleship
+
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
+
+
+# 	#RS
+
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_oldlightcarrier_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_oldlightcarrier_turret_L"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_oldlightcarrier_turret_L"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_01"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "MEDIUM_GUN_02"
+# 		template = "invisible_missile_fixed"
+# 		locatorname = "medium_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_01"
+# 		template = "large_strike_craft"
+# 		rotation = 90
+# 		locatorname = "strike_craft_locator_01"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_02"
+# 		template = "large_strike_craft"
+# 		rotation = -90
+# 		locatorname = "strike_craft_locator_02"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_03"
+# 		template = "large_strike_craft"
+# 		rotation = 90
+# 		locatorname = "strike_craft_locator_03"
+# 	}
+# 	aux_utility_slots = 1
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
+
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_oldbattlecarrier"
+
+
+
+# 	ship_size = battleship
+
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
+
+
+# 	#RS
+
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+
+
+# 	fits_on_slot = bow
+# 	should_draw_components = yes
+# 	entity = "PEDF_oldbattlecarrier_entity"
+# 	icon = "GFX_ship_part_core_bow"
+	
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
+	
+# 	component_slot = {
+# 		name = "EXTRA_LARGE_01"
+# 		template = "invisible_extra_large_fixed"
+# 		locatorname = "xl_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_01"
+# 		template = "PEDF_oldbattlecarrier_turret_L"
+# 		locatorname = "large_gun_01"
+# 	}
+# 	component_slot = {
+# 		name = "LARGE_GUN_02"
+# 		template = "PEDF_oldbattlecarrier_turret_L"
+# 		locatorname = "large_gun_02"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_01"
+# 		template = "large_strike_craft"
+# 		rotation = 0
+# 		locatorname = "strike_craft_locator_01"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_02"
+# 		template = "large_strike_craft"
+# 		rotation = 0
+# 		locatorname = "strike_craft_locator_02"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_03"
+# 		template = "large_strike_craft"
+# 		rotation = 0
+# 		locatorname = "strike_craft_locator_03"
+# 	}
+# 	component_slot = {
+# 		name = "STRIKE_CRAFT_04"
+# 		template = "large_strike_craft"
+# 		rotation = 0
+# 		locatorname = "strike_craft_locator_04"
+# 	}
+# 	aux_utility_slots = 1
+	
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
 
