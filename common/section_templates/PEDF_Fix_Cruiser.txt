@@ -3,7 +3,7 @@ ship_section_template = {
 	key = "PEDF_CRUISER_patrol"
 
 
-	ship_size = cruiser
+	#ship_size = cruiser
 
 	#NSC
 	ship_size = StrikeCruiser
@@ -27,8 +27,18 @@ ship_section_template = {
 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
 		}
 		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
+			factor = 0
+			AND = {
+				has_technology = tech_Wave_motion_gun_Fleet
+				NOT = { has_technology = tech_dtf_ai_compatible_weapons_2_SpinalMountedShockCannon }
+			}
+		}
+		modifier = {
+			factor = 1000
+			AND = {
+				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_ai_compatible_weapons_2_SpinalMountedShockCannon
+			}
 		}		
 	}
 	
@@ -96,7 +106,7 @@ ship_section_template = {
 	ship_size = cruiser
 
 	#NSC
-	ship_size = StrikeCruiser
+	#ship_size = StrikeCruiser
 	# ship_size = escortcarrier
 
 	#RS
@@ -117,8 +127,18 @@ ship_section_template = {
 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
 		}
 		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
+			factor = 0
+			AND = {
+				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_ai_compatible_weapons_2_SpinalMountedShockCannon
+			}
+		}	
+		modifier = {
+			factor = 1000
+			AND = {
+				has_technology = tech_Wave_motion_gun_Fleet
+				NOT = { has_technology = tech_dtf_ai_compatible_weapons_2_SpinalMountedShockCannon }
+			}
 		}		
 	}
 	
@@ -188,7 +208,7 @@ ship_section_template = {
 	ship_size = cruiser
 
 	#NSC
-	ship_size = StrikeCruiser
+	#ship_size = StrikeCruiser
 	# ship_size = escortcarrier
 
 	#RS
