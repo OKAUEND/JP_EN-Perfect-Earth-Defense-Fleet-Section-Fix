@@ -1,0 +1,812 @@
+PEDFNP_invisible_small_fixed = {
+	size = small
+	component = weapon
+	is_fixed = yes
+}
+PEDFNP_invisible_medium_fixed = {
+	size = medium
+	component = weapon
+	is_fixed = yes
+}
+PEDFNP_invisible_large_fixed = {
+	size = large
+	component = weapon
+	is_fixed = yes
+}
+PEDFNP_invisible_torpedo_fixed = {
+	size = torpedo
+	component = weapon
+	is_fixed = yes
+}
+PEDFNP_invisible_pd_fixed = {
+	size = point_defence
+	component = weapon
+	is_fixed = yes
+}
+
+
+
+
+
+
+
+
+
+PEDFNP_ese_shunran_turret_L_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ese_shunran_turret_L_front_entity"
+		weapon_type_energy = "PEDFNP_ese_shunran_turret_L_front_entity"
+		weapon_type_explosive = "PEDFNP_ese_shunran_turret_L_front_entity"
+
+	}
+}
+PEDFNP_ese_shunran_turret_L_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ese_shunran_turret_L_back_entity"
+		weapon_type_energy = "PEDFNP_ese_shunran_turret_L_back_entity"
+		weapon_type_explosive = "PEDFNP_ese_shunran_turret_L_back_entity"
+
+	}
+}
+PEDFNP_ese_shunran_turret_L_front_under = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ese_shunran_turret_L_front_under_entity"
+		weapon_type_energy = "PEDFNP_ese_shunran_turret_L_front_under_entity"
+		weapon_type_explosive = "PEDFNP_ese_shunran_turret_L_front_under_entity"
+
+	}
+}
+
+PEDFNP_LOC_ese_shunran_turret_L_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ese_shunran_turret_L_front_loc_entity"
+		weapon_type_energy = "PEDFNP_ese_shunran_turret_L_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_ese_shunran_turret_L_front_loc_entity"
+
+	}
+}
+PEDFNP_LOC_ese_shunran_turret_L_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ese_shunran_turret_L_back_loc_entity"
+		weapon_type_energy = "PEDFNP_ese_shunran_turret_L_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_ese_shunran_turret_L_back_loc_entity"
+
+	}
+}
+PEDFNP_LOC_ese_shunran_turret_L_front_under = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ese_shunran_turret_L_front_under_loc_entity"
+		weapon_type_energy = "PEDFNP_ese_shunran_turret_L_front_under_loc_entity"
+		weapon_type_explosive = "PEDFNP_ese_shunran_turret_L_front_under_loc_entity"
+
+	}
+}
+
+PEDFNP_ese_shunran_turret_M_front = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ese_shunran_turret_M_front_entity"
+		weapon_type_energy = "PEDFNP_ese_shunran_turret_M_front_entity"
+		weapon_type_explosive = "PEDFNP_ese_shunran_turret_M_front_entity"
+
+	}
+}
+PEDFNP_LOC_ese_shunran_turret_M_front = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ese_shunran_turret_M_front_loc_entity"
+		weapon_type_energy = "PEDFNP_ese_shunran_turret_M_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_ese_shunran_turret_M_front_loc_entity"
+
+	}
+}
+
+
+
+
+PEDFNP_LOC_yamato_turret_L_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yamato_turret_L_front_loc_entity"
+		weapon_type_energy = "PEDFNP_yamato_turret_L_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_yamato_turret_L_front_loc_entity"
+	}
+}
+PEDFNP_LOC_yamato_turret_L_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yamato_turret_L_back_loc_entity"
+		weapon_type_energy = "PEDFNP_yamato_turret_L_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_yamato_turret_L_back_loc_entity"
+	}
+}
+PEDFNP_LOC_yamato_turret_M_front = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yamato_turret_M_front_loc_entity"
+		weapon_type_energy = "PEDFNP_yamato_turret_M_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_yamato_turret_M_front_loc_entity"
+	}
+}
+PEDFNP_LOC_yamato_turret_M_back = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yamato_turret_M_back_loc_entity"
+		weapon_type_energy = "PEDFNP_yamato_turret_M_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_yamato_turret_M_back_loc_entity"
+	}
+}
+PEDFNP_LOC_yamato_turret_S_left = {
+	size = point_defence
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yamato_turret_S_left_loc_entity"
+		weapon_type_energy = "PEDFNP_yamato_turret_S_left_loc_entity"
+		weapon_type_explosive = "PEDFNP_yamato_turret_S_left_loc_entity"
+
+	}
+}
+PEDFNP_LOC_yamato_turret_S_right = {
+	size = point_defence
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yamato_turret_S_right_loc_entity"
+		weapon_type_energy = "PEDFNP_yamato_turret_S_right_loc_entity"
+		weapon_type_explosive = "PEDFNP_yamato_turret_S_right_loc_entity"
+	}
+}
+PEDFNP_LOC_yamato_turret_PD_left = {
+	size = point_defence
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yamato_turret_PD_left_loc_entity"
+		weapon_type_energy = "PEDFNP_yamato_turret_PD_left_loc_entity"
+		weapon_type_explosive = "PEDFNP_yamato_turret_PD_left_loc_entity"
+	}
+}
+PEDFNP_LOC_yamato_turret_PD_right = {
+	size = point_defence
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yamato_turret_PD_right_loc_entity"
+		weapon_type_energy = "PEDFNP_yamato_turret_PD_right_loc_entity"
+		weapon_type_explosive = "PEDFNP_yamato_turret_PD_right_loc_entity"
+	}
+}
+
+
+
+
+PEDFNP_LOC_ginga_turret_L_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ginga_turret_L_front_loc_entity"
+		weapon_type_energy = "PEDFNP_ginga_turret_L_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_ginga_turret_L_front_loc_entity"
+	}
+}
+PEDFNP_LOC_ginga_turret_L_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ginga_turret_L_back_loc_entity"
+		weapon_type_energy = "PEDFNP_ginga_turret_L_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_ginga_turret_L_back_loc_entity"
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+PEDFNP_LOC_andromeda_turret_L_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_andromeda_turret_L_front_loc_entity"
+		weapon_type_energy = "PEDFNP_andromeda_turret_L_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_andromeda_turret_L_front_loc_entity"
+
+	}
+}
+PEDFNP_LOC_andromeda_turret_L_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_andromeda_turret_L_back_loc_entity"
+		weapon_type_energy = "PEDFNP_andromeda_turret_L_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_andromeda_turret_L_back_loc_entity"
+	}
+}
+
+
+PEDFNP_LOC_andromeda_Blue_turret_L_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_andromeda_Blue_turret_L_front_loc_entity"
+		weapon_type_energy = "PEDFNP_andromeda_Blue_turret_L_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_andromeda_Blue_turret_L_front_loc_entity"
+
+	}
+}
+PEDFNP_LOC_andromeda_Blue_turret_L_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_andromeda_Blue_turret_L_back_loc_entity"
+		weapon_type_energy = "PEDFNP_andromeda_Blue_turret_L_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_andromeda_Blue_turret_L_back_loc_entity"
+	}
+}
+
+
+
+PEDFNP_LOC_andromeda_AI_turret_L_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_andromeda_AI_turret_L_front_loc_entity"
+		weapon_type_energy = "PEDFNP_andromeda_AI_turret_L_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_andromeda_AI_turret_L_front_loc_entity"
+
+	}
+}
+PEDFNP_LOC_andromeda_AI_turret_L_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_andromeda_AI_turret_L_back_loc_entity"
+		weapon_type_energy = "PEDFNP_andromeda_AI_turret_L_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_andromeda_AI_turret_L_back_loc_entity"
+	}
+}
+PEDFNP_LOC_amaterasu_turret_L_front = {
+	size = large
+	component = weapon
+	is_fixed = yes
+	entities = {
+		weapon_type_kinetic = "PEDFNP_andromeda_turret_L_front_loc_entity"
+		weapon_type_energy = "PEDFNP_andromeda_turret_L_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_andromeda_turret_L_front_loc_entity"
+	}
+}
+
+
+
+
+
+PEDFNP_LOC_yamanamispecial_turret_L_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yamanamispecial_turret_L_front_loc_entity"
+		weapon_type_energy = "PEDFNP_yamanamispecial_turret_L_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_yamanamispecial_turret_L_front_loc_entity"
+
+	}
+}
+PEDFNP_LOC_yamanamispecial_turret_L_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yamanamispecial_turret_L_back_loc_entity"
+		weapon_type_energy = "PEDFNP_yamanamispecial_turret_L_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_yamanamispecial_turret_L_back_loc_entity"
+	}
+}
+
+
+
+
+
+
+
+PEDFNP_LOC_dreadnought_turret_L_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_dreadnought_turret_L_front_loc_entity"
+		weapon_type_energy = "PEDFNP_dreadnought_turret_L_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_dreadnought_turret_L_front_loc_entity"
+
+	}
+}
+PEDFNP_LOC_dreadnought_turret_L_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_dreadnought_turret_L_back_loc_entity"
+		weapon_type_energy = "PEDFNP_dreadnought_turret_L_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_dreadnought_turret_L_back_loc_entity"
+	}
+}
+PEDFNP_LOC_dreadnought_turret_PD = {
+	size = point_defence
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_dreadnought_turret_PD_loc_entity"
+		weapon_type_energy = "PEDFNP_dreadnought_turret_PD_loc_entity"
+		weapon_type_explosive = "PEDFNP_dreadnought_turret_PD_loc_entity"
+	}
+}
+
+
+PEDFNP_LOC_dreadnought_ED_turret_L_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_dreadnought_ED_turret_L_front_loc_entity"
+		weapon_type_energy = "PEDFNP_dreadnought_ED_turret_L_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_dreadnought_ED_turret_L_front_loc_entity"
+
+	}
+}
+PEDFNP_LOC_dreadnought_ED_turret_L_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_dreadnought_ED_turret_L_back_loc_entity"
+		weapon_type_energy = "PEDFNP_dreadnought_ED_turret_L_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_dreadnought_ED_turret_L_back_loc_entity"
+	}
+}
+
+
+PEDFNP_LOC_dreadnought_MB_turret_L_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_dreadnought_MB_turret_L_front_loc_entity"
+		weapon_type_energy = "PEDFNP_dreadnought_MB_turret_L_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_dreadnought_MB_turret_L_front_loc_entity"
+
+	}
+}
+PEDFNP_LOC_dreadnought_MB_turret_L_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_dreadnought_MB_turret_L_back_loc_entity"
+		weapon_type_energy = "PEDFNP_dreadnought_MB_turret_L_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_dreadnought_MB_turret_L_back_loc_entity"
+	}
+}
+
+
+
+
+
+
+
+
+PEDFNP_LOC_escort_turret_M_upper = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_escort_turret_M_upper_loc_entity"
+		weapon_type_energy = "PEDFNP_escort_turret_M_upper_loc_entity"
+		weapon_type_explosive = "PEDFNP_escort_turret_M_upper_loc_entity"
+	}
+}
+PEDFNP_LOC_escort_turret_M_under = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_escort_turret_M_under_loc_entity"
+		weapon_type_energy = "PEDFNP_escort_turret_M_under_loc_entity"
+		weapon_type_explosive = "PEDFNP_escort_turret_M_under_loc_entity"
+	}
+}
+PEDFNP_LOC_escort_turret_PD = {
+	size = point_defence
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_escort_turret_PD_loc_entity"
+		weapon_type_energy = "PEDFNP_escort_turret_PD_loc_entity"
+		weapon_type_explosive = "PEDFNP_escort_turret_PD_loc_entity"
+	}
+}
+
+
+
+
+PEDFNP_LOC_patrol_turret_M_upper = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_patrol_turret_M_upper_loc_entity"
+		weapon_type_energy = "PEDFNP_patrol_turret_M_upper_loc_entity"
+		weapon_type_explosive = "PEDFNP_patrol_turret_M_upper_loc_entity"
+	}
+}
+PEDFNP_LOC_patrol_turret_M_under = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_patrol_turret_M_under_loc_entity"
+		weapon_type_energy = "PEDFNP_patrol_turret_M_under_loc_entity"
+		weapon_type_explosive = "PEDFNP_patrol_turret_M_under_loc_entity"
+	}
+}
+
+
+
+
+
+
+
+
+PEDFNP_ticonderoga_turret_L1 = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDF_ticonderoga_turret_M1_entity"
+		weapon_type_energy = "PEDF_ticonderoga_turret_M1_entity"
+		weapon_type_explosive = "PEDF_ticonderoga_turret_M1_entity"
+	}
+}
+PEDFNP_ticonderoga_turret_L2 = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDF_ticonderoga_turret_M2_entity"
+		weapon_type_energy = "PEDF_ticonderoga_turret_M2_entity"
+		weapon_type_explosive = "PEDF_ticonderoga_turret_M2_entity"
+	}
+}
+
+PEDFNP_ticonderoga_turret_L3_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDF_ticonderoga_turret_M3_front_entity"
+		weapon_type_energy = "PEDF_ticonderoga_turret_M3_front_entity"
+		weapon_type_explosive = "PEDF_ticonderoga_turret_M3_front_entity"
+	}
+}
+PEDFNP_ticonderoga_turret_L3_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDF_ticonderoga_turret_M3_back_entity"
+		weapon_type_energy = "PEDF_ticonderoga_turret_M3_back_entity"
+		weapon_type_explosive = "PEDF_ticonderoga_turret_M3_back_entity"
+	}
+}
+
+
+PEDFNP_LOC_ticonderoga_turret_L1 = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ticonderoga_turret_M1_loc_entity"
+		weapon_type_energy = "PEDFNP_ticonderoga_turret_M1_loc_entity"
+		weapon_type_explosive = "PEDFNP_ticonderoga_turret_M1_loc_entity"
+	}
+}
+PEDFNP_LOC_ticonderoga_turret_L2 = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ticonderoga_turret_M2_loc_entity"
+		weapon_type_energy = "PEDFNP_ticonderoga_turret_M2_loc_entity"
+		weapon_type_explosive = "PEDFNP_ticonderoga_turret_M2_loc_entity"
+	}
+}
+
+PEDFNP_LOC_ticonderoga_turret_L3_front = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ticonderoga_turret_M3_front_loc_entity"
+		weapon_type_energy = "PEDFNP_ticonderoga_turret_M3_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_ticonderoga_turret_M3_front_loc_entity"
+	}
+}
+PEDFNP_LOC_ticonderoga_turret_L3_back = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ticonderoga_turret_M3_back_loc_entity"
+		weapon_type_energy = "PEDFNP_ticonderoga_turret_M3_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_ticonderoga_turret_M3_back_loc_entity"
+	}
+}
+
+
+PEDFNP_LOC_ticonderoga_turret_M1 = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ticonderoga_turret_M1_loc_entity"
+		weapon_type_energy = "PEDFNP_ticonderoga_turret_M1_loc_entity"
+		weapon_type_explosive = "PEDFNP_ticonderoga_turret_M1_loc_entity"
+	}
+}
+PEDFNP_LOC_ticonderoga_turret_M2 = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ticonderoga_turret_M2_loc_entity"
+		weapon_type_energy = "PEDFNP_ticonderoga_turret_M2_loc_entity"
+		weapon_type_explosive = "PEDFNP_ticonderoga_turret_M2_loc_entity"
+	}
+}
+
+PEDFNP_LOC_ticonderoga_turret_M3_front = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ticonderoga_turret_M3_front_loc_entity"
+		weapon_type_energy = "PEDFNP_ticonderoga_turret_M3_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_ticonderoga_turret_M3_front_loc_entity"
+	}
+}
+PEDFNP_LOC_ticonderoga_turret_M3_back = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_ticonderoga_turret_M3_back_loc_entity"
+		weapon_type_energy = "PEDFNP_ticonderoga_turret_M3_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_ticonderoga_turret_M3_back_loc_entity"
+	}
+}
+PEDFNP_LOC_invisible_large_fixed = {
+	size = large
+	component = weapon
+	is_fixed = yes
+}
+
+
+
+
+
+
+
+
+PEDFNP_LOC_saratoga_turret_M1_front = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_saratoga_turret_M1_front_loc_entity"
+		weapon_type_energy = "PEDFNP_saratoga_turret_M1_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_saratoga_turret_M1_front_loc_entity"
+
+	}
+}
+PEDFNP_LOC_saratoga_turret_M1_back = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_saratoga_turret_M1_back_loc_entity"
+		weapon_type_energy = "PEDFNP_saratoga_turret_M1_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_saratoga_turret_M1_back_loc_entity"
+	}
+}
+
+PEDFNP_LOC_saratoga_turret_M2 = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_saratoga_turret_M2_loc_entity"
+		weapon_type_energy = "PEDFNP_saratoga_turret_M2_loc_entity"
+		weapon_type_explosive = "PEDFNP_saratoga_turret_M2_loc_entity"
+	}
+}
+PEDFNP_LOC_invisible_medium_fixed = {
+	size = medium
+	component = weapon
+	is_fixed = yes
+}
+
+
+
+PEDFNP_LOC_murasame_turret_M1_front = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_murasame_turret_M1_front_loc_entity"
+		weapon_type_energy = "PEDFNP_murasame_turret_M1_front_loc_entity"
+		weapon_type_explosive = "PEDFNP_murasame_turret_M1_front_loc_entity"
+	}
+}
+PEDFNP_LOC_murasame_turret_M1_back = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_murasame_turret_M1_back_loc_entity"
+		weapon_type_energy = "PEDFNP_murasame_turret_M1_back_loc_entity"
+		weapon_type_explosive = "PEDFNP_murasame_turret_M1_back_loc_entity"
+	}
+}
+
+PEDFNP_LOC_murasame_turret_M2 = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_murasame_turret_M2_loc_entity"
+		weapon_type_energy = "PEDFNP_murasame_turret_M2_loc_entity"
+		weapon_type_explosive = "PEDFNP_murasame_turret_M2_loc_entity"
+	}
+}
+
+
+
+
+
+PEDFNP_LOC_isokaze_turret_S1 = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_isokaze_turret_S1_loc_entity"
+		weapon_type_energy = "PEDFNP_isokaze_turret_S1_loc_entity"
+		weapon_type_explosive = "PEDFNP_isokaze_turret_S1_loc_entity"
+
+	}
+}
+PEDFNP_LOC_isokaze_turret_S2 = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_isokaze_turret_S2_loc_entity"
+		weapon_type_energy = "PEDFNP_isokaze_turret_S2_loc_entity"
+		weapon_type_explosive = "PEDFNP_isokaze_turret_S2_loc_entity"
+
+	}
+}
+
+PEDFNP_LOC_yukikaze_turret_S1 = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yukikaze_turret_S1_loc_entity"
+		weapon_type_energy = "PEDFNP_yukikaze_turret_S1_loc_entity"
+		weapon_type_explosive = "PEDFNP_yukikaze_turret_S1_loc_entity"
+
+	}
+}
+PEDFNP_LOC_yukikaze_turret_S2 = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_yukikaze_turret_S2_loc_entity"
+		weapon_type_energy = "PEDFNP_yukikaze_turret_S2_loc_entity"
+		weapon_type_explosive = "PEDFNP_yukikaze_turret_S2_loc_entity"
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+PEDFNP_LOC_oldcruiser_turret_M1 = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_oldcruiser_turret_M1_loc_entity"
+		weapon_type_energy = "PEDFNP_oldcruiser_turret_M1_loc_entity"
+		weapon_type_explosive = "PEDFNP_oldcruiser_turret_M1_loc_entity"
+
+	}
+}
+PEDFNP_LOC_oldcruiser_turret_M2 = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_oldcruiser_turret_M2_loc_entity"
+		weapon_type_energy = "PEDFNP_oldcruiser_turret_M2_loc_entity"
+		weapon_type_explosive = "PEDFNP_oldcruiser_turret_M2_loc_entity"
+
+	}
+}
+PEDFNP_LOC_oldcruiser_turret_L = {
+	size = large
+	component = weapon
+	is_fixed = yes
+	entities = {
+		weapon_type_kinetic = "PEDFNP_oldcruiser_turret_L_loc_entity"
+		weapon_type_energy = "PEDFNP_oldcruiser_turret_L_loc_entity"
+		weapon_type_explosive = "PEDFNP_oldcruiser_turret_L_loc_entity"
+
+	}
+}
+
+
+
+
+
+
+
+PEDFNP_LOC_olddestroyer_turret_S_upper = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_olddestroyer_turret_S_upper_loc_entity"
+		weapon_type_energy = "PEDFNP_olddestroyer_turret_S_upper_loc_entity"
+		weapon_type_explosive = "PEDFNP_olddestroyer_turret_S_upper_loc_entity"
+
+	}
+}
+PEDFNP_LOC_olddestroyer_turret_S_under = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_olddestroyer_turret_S_under_loc_entity"
+		weapon_type_energy = "PEDFNP_olddestroyer_turret_S_under_loc_entity"
+		weapon_type_explosive = "PEDFNP_olddestroyer_turret_S_under_loc_entity"
+
+	}
+}
+PEDFNP_LOC_olddestroyer_turret_PD = {
+	size = point_defence
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_olddestroyer_turret_PD_loc_entity"
+		weapon_type_energy = "PEDFNP_olddestroyer_turret_PD_loc_entity"
+		weapon_type_explosive = "PEDFNP_olddestroyer_turret_PD_loc_entity"
+	}
+}
+
+
+
+PEDFNP_LOC_oldlightcarrier_turret_L = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_oldlightcarrier_turret_L_loc_entity"
+		weapon_type_energy = "PEDFNP_oldlightcarrier_turret_L_loc_entity"
+		weapon_type_explosive = "PEDFNP_oldlightcarrier_turret_L_loc_entity"
+
+	}
+}
+
+PEDFNP_LOC_oldbattlecarrier_turret_L = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "PEDFNP_oldbattlecarrier_turret_L_loc_entity"
+		weapon_type_energy = "PEDFNP_oldbattlecarrier_turret_L_loc_entity"
+		weapon_type_explosive = "PEDFNP_oldbattlecarrier_turret_L_loc_entity"
+
+	}
+}
+
+
+
+
+
+
