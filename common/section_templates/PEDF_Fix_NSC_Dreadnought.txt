@@ -160,9 +160,19 @@ ship_section_template = {
 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
 		}
 		modifier = {
-			factor = 1000
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
+			factor = 100
+			AND = {
+				has_technology = tech_Wave_motion_gun_Fleet
+				years_passed < 150
+			}
+		}
+		modifier = {
+			factor = 0
+			AND = {
+				has_technology = tech_Wave_motion_gun_Fleet
+				years_passed > 150
+			}
+		}	
 	}
 	
 	component_slot = {
@@ -543,7 +553,7 @@ ship_section_template = {
 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
 		}
 		modifier = {
-			factor = 100
+			factor = 0
 			has_technology = tech_Wave_motion_gun_Fleet
 		}		
 	}
@@ -661,7 +671,7 @@ ship_section_template = {
 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
 		}
 		modifier = {
-			factor = 100
+			factor = 0
 			has_technology = tech_Wave_motion_gun_Fleet
 		}		
 	}
@@ -803,7 +813,24 @@ ship_section_template = {
 	prerequisites = { tech_Wave_motion_gun_Fleet}
 	
 	ai_weight = {
-		weight = 0
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+		}
+		modifier = {
+			factor = 0
+			AND = {
+				has_technology = tech_Wave_motion_gun_Fleet
+				years_passed < 150
+			}
+		}
+		modifier = {
+			factor = 100
+			AND = {
+				has_technology = tech_Wave_motion_gun_Fleet
+				years_passed > 150
+			}
+		}	
 	}
 	
 	component_slot = {

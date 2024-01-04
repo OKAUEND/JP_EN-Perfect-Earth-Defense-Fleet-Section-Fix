@@ -300,7 +300,7 @@ ship_section_template = {
 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
 		}
 		modifier = {
-			factor = 100
+			factor = 0
 			has_technology = tech_Wave_motion_gun_Fleet
 		}		
 	}
