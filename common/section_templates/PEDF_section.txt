@@ -2806,301 +2806,301 @@
 
 
 
-##############################ダミーセクション######################################
+# ##############################ダミーセクション######################################
 
-#タイタン用
-ship_section_template = {
-	key = "PEDF_TITAN_DUMMY_COMMON"
+# #タイタン用
+# ship_section_template = {
+# 	key = "PEDF_TITAN_DUMMY_COMMON"
 
-	ship_size = titan
+# 	ship_size = titan
 
-	fits_on_slot = mid
-	fits_on_slot = stern
+# 	fits_on_slot = mid
+# 	fits_on_slot = stern
 
-	#NSC
-	fits_on_slot = mid1
-	fits_on_slot = mid2
-	fits_on_slot = mid3
-	fits_on_slot = mid4
+# 	#NSC
+# 	fits_on_slot = mid1
+# 	fits_on_slot = mid2
+# 	fits_on_slot = mid3
+# 	fits_on_slot = mid4
 
 
 
-	should_draw_components = no
-	entity = "PEDF_common_locator_entity"
-	icon = "GFX_ship_part_core_bow"
+# 	should_draw_components = no
+# 	entity = "PEDF_common_locator_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	large_utility_slots = 6
-	aux_utility_slots = 1
+# 	large_utility_slots = 6
+# 	aux_utility_slots = 1
 
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-#戦艦用
-
-ship_section_template = {
-	key = "PEDF_BATTLESHIP_DUMMY_COMMON"
-
-
-	ship_size = battleship
-
-	#NSC
-	ship_size = Battlecruiser
-	ship_size = Carrier
-
-
-	#RS
-
-	ship_size = rs_battlecruiser
-	ship_size = rs_carrier
-	ship_size = rs_dreadnought
-	ship_size = rs_heavy_dreadnought
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
 
-	fits_on_slot = mid
-	fits_on_slot = stern
+# #戦艦用
 
-	#NSC
-	fits_on_slot = mid1
-	fits_on_slot = mid2
-	fits_on_slot = mid3
-	fits_on_slot = mid4
+# ship_section_template = {
+# 	key = "PEDF_BATTLESHIP_DUMMY_COMMON"
 
 
+# 	ship_size = battleship
 
-	should_draw_components = no
-	entity = "PEDF_common_locator_entity"
-	icon = "GFX_ship_part_core_bow"
+# 	#NSC
+# 	ship_size = Battlecruiser
+# 	ship_size = Carrier
+
+
+# 	#RS
+
+# 	ship_size = rs_battlecruiser
+# 	ship_size = rs_carrier
+# 	ship_size = rs_dreadnought
+# 	ship_size = rs_heavy_dreadnought
+
+
+
+# 	fits_on_slot = mid
+# 	fits_on_slot = stern
+
+# 	#NSC
+# 	fits_on_slot = mid1
+# 	fits_on_slot = mid2
+# 	fits_on_slot = mid3
+# 	fits_on_slot = mid4
+
+
+
+# 	should_draw_components = no
+# 	entity = "PEDF_common_locator_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	large_utility_slots = 3
-	aux_utility_slots = 1
+# 	large_utility_slots = 3
+# 	aux_utility_slots = 1
 
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-#巡洋艦用
-ship_section_template = {
-	key = "PEDF_CRUISER_DUMMY_COMMON"
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
-
-
-	ship_size = cruiser
-
-	#NSC
-	ship_size = StrikeCruiser
-	ship_size = escortcarrier
-
-	#RS
-	ship_size = rs_support_cruiser
-	ship_size = rs_ea_cruiser
+# #巡洋艦用
+# ship_section_template = {
+# 	key = "PEDF_CRUISER_DUMMY_COMMON"
 
 
 
 
-	fits_on_slot = mid
-	fits_on_slot = stern
+# 	ship_size = cruiser
 
-	#NSC
-	fits_on_slot = mid1
-	fits_on_slot = mid2
-	fits_on_slot = mid3
-	fits_on_slot = mid4
+# 	#NSC
+# 	ship_size = StrikeCruiser
+# 	ship_size = escortcarrier
+
+# 	#RS
+# 	ship_size = rs_support_cruiser
+# 	ship_size = rs_ea_cruiser
 
 
-	should_draw_components = no
-	entity = "PEDF_common_locator_entity"
-	icon = "GFX_ship_part_core_bow"
+
+
+# 	fits_on_slot = mid
+# 	fits_on_slot = stern
+
+# 	#NSC
+# 	fits_on_slot = mid1
+# 	fits_on_slot = mid2
+# 	fits_on_slot = mid3
+# 	fits_on_slot = mid4
+
+
+# 	should_draw_components = no
+# 	entity = "PEDF_common_locator_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	medium_utility_slots = 4
-	aux_utility_slots = 1
+# 	medium_utility_slots = 4
+# 	aux_utility_slots = 1
 
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
-#駆逐艦用
-ship_section_template = {
-	key = "PEDF_DESTROYER_DUMMY_COMMON"
-	ship_size = destroyer
-	fits_on_slot = stern
-	should_draw_components = no
-	entity = "PEDF_common_locator_entity"
-	icon = "GFX_ship_part_core_bow"
+# #駆逐艦用
+# ship_section_template = {
+# 	key = "PEDF_DESTROYER_DUMMY_COMMON"
+# 	ship_size = destroyer
+# 	fits_on_slot = stern
+# 	should_draw_components = no
+# 	entity = "PEDF_common_locator_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	small_utility_slots = 4
-	aux_utility_slots = 1
+# 	small_utility_slots = 4
+# 	aux_utility_slots = 1
 
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-#NSC2弩級戦艦用
-ship_section_template = {
-	key = "PEDF_NSC2RSDREADNOGHT_DUMMY_COMMON"
-
-	#NSC
-	ship_size = Dreadnought
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
+# #NSC2弩級戦艦用
+# ship_section_template = {
+# 	key = "PEDF_NSC2RSDREADNOGHT_DUMMY_COMMON"
 
-	fits_on_slot = mid
-	fits_on_slot = stern
-
-	#NSC
-	fits_on_slot = mid1
-	fits_on_slot = mid2
-	fits_on_slot = mid3
-	fits_on_slot = mid4
+# 	#NSC
+# 	ship_size = Dreadnought
 
 
 
-	should_draw_components = no
-	entity = "PEDF_common_locator_entity"
-	icon = "GFX_ship_part_core_bow"
+# 	fits_on_slot = mid
+# 	fits_on_slot = stern
+
+# 	#NSC
+# 	fits_on_slot = mid1
+# 	fits_on_slot = mid2
+# 	fits_on_slot = mid3
+# 	fits_on_slot = mid4
+
+
+
+# 	should_draw_components = no
+# 	entity = "PEDF_common_locator_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	large_utility_slots = 10
-	aux_utility_slots = 2
+# 	large_utility_slots = 10
+# 	aux_utility_slots = 2
 
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-#NSC2旗艦用
-ship_section_template = {
-	key = "PEDF_NSC2FLAGSHIP_DUMMY_COMMON"
-
-	#NSC
-	ship_size = Flagship
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
 
 
-	fits_on_slot = mid
-	fits_on_slot = stern
+# #NSC2旗艦用
+# ship_section_template = {
+# 	key = "PEDF_NSC2FLAGSHIP_DUMMY_COMMON"
 
-	#NSC
-	fits_on_slot = mid1
-	fits_on_slot = mid2
-	fits_on_slot = mid3
-	fits_on_slot = mid4
+# 	#NSC
+# 	ship_size = Flagship
 
 
+# 	fits_on_slot = mid
+# 	fits_on_slot = stern
 
-	should_draw_components = no
-	entity = "PEDF_common_locator_entity"
-	icon = "GFX_ship_part_core_bow"
+# 	#NSC
+# 	fits_on_slot = mid1
+# 	fits_on_slot = mid2
+# 	fits_on_slot = mid3
+# 	fits_on_slot = mid4
+
+
+
+# 	should_draw_components = no
+# 	entity = "PEDF_common_locator_entity"
+# 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = { tech_Wave_motion_gun_Fleet }
 	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
+# 	ai_weight = {
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 		}
+# 		modifier = {
+# 			factor = 100
+# 			has_technology = tech_Wave_motion_gun_Fleet
+# 		}		
+# 	}
 	
-	large_utility_slots = 20
-	aux_utility_slots = 3
+# 	large_utility_slots = 20
+# 	aux_utility_slots = 3
 
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
+# 	resources = {
+# 		category = ship_sections
+# 		cost = {
+# 			alloys = 80
+# 		}
+# 	}
+# }
