@@ -1,73 +1,5 @@
-
-
-
-
-ship_section_template = {
-	key = "PEDF_DESTROYER_saratoga"
-	ship_size = destroyer
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_saratoga_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 1000
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_saratoga_turret_M1_front"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_saratoga_turret_M1_back"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "PEDF_saratoga_turret_M2"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "PEDF_invisible_medium_fixed"
-		locatorname = "medium_gun_03"
-	}
-	
-	small_utility_slots = 2
-	aux_utility_slots = 1
-
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}
-
-
-
-
+##################################################################
+# 国連版塗装/2199
 ship_section_template = {
 	key = "PEDF_DESTROYER_murasame"
 	ship_size = destroyer
@@ -131,11 +63,134 @@ ship_section_template = {
 	}
 }
 
+ship_section_template = {
+	key = "PEDF_DESTROYER_murasame2"
+	ship_size = destroyer
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "PEDF_murasame_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+		}
+		modifier = {
+			factor = 100
+			has_technology = tech_Wave_motion_gun_Fleet
+		}		
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "PEDF_murasame_turret_M1_front"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "PEDF_murasame_turret_M1_back"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "PEDF_murasame_turret_M2"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "medium_gun_03"
+	}
+
+	small_utility_slots = 2
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+}
 
 
+##################################################################
+# 地球連邦版塗装/2202
+ship_section_template = {
+	key = "PEDF_DESTROYER_saratoga"
+	ship_size = destroyer
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "PEDF_saratoga_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+		}
+		modifier = {
+			factor = 1000
+			has_technology = tech_Wave_motion_gun_Fleet
+		}		
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "PEDF_saratoga_turret_M1_front"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "PEDF_saratoga_turret_M1_back"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "PEDF_saratoga_turret_M2"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "invisible_medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "PEDF_invisible_medium_fixed"
+		locatorname = "medium_gun_03"
+	}
+	
+	small_utility_slots = 2
+	aux_utility_slots = 1
 
-
-
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+}
 
 
 ship_section_template = {
@@ -202,67 +257,3 @@ ship_section_template = {
 }
 
 
-
-
-ship_section_template = {
-	key = "PEDF_DESTROYER_murasame2"
-	ship_size = destroyer
-	fits_on_slot = bow
-	should_draw_components = yes
-	entity = "PEDF_murasame_entity"
-	icon = "GFX_ship_part_core_bow"
-	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
-	
-	ai_weight = {
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
-		}
-		modifier = {
-			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
-		}		
-	}
-	
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "PEDF_murasame_turret_M1_front"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "PEDF_murasame_turret_M1_back"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_03"
-		template = "PEDF_murasame_turret_M2"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "invisible_medium_turret"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "invisible_extra_large_fixed"
-		locatorname = "medium_gun_03"
-	}
-
-	small_utility_slots = 2
-	aux_utility_slots = 1
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 80
-		}
-	}
-}

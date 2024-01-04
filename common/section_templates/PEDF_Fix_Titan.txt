@@ -1,0 +1,341 @@
+
+ship_section_template = {
+	key = "PEDF_TITAN_Shunran_XL"
+
+	ship_size = titan
+	
+	#NSC
+	# ship_size = Dreadnought
+	ship_size = Flagship
+
+	#RS
+	# ship_size = rs_dreadnought
+	# ship_size = rs_heavy_dreadnought
+
+
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "PEDF_Shunran_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+		}
+		modifier = {
+			factor = 0
+			has_technology = tech_Wave_motion_gun_Fleet
+		}		
+	}
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "TITANIC_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "TITANIC_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "PEDF_Shunran_turret_XL_front"
+		locatorname = "superlarge_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "PEDF_Shunran_turret_XL_front"
+		locatorname = "superlarge_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "PEDF_Shunran_turret_XL_front"
+		locatorname = "superlarge_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "PEDF_Shunran_turret_XL_back"
+		locatorname = "superlarge_gun_04"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = "PEDF_Shunran_turret_XL_under"
+		locatorname = "superlarge_gun_05"
+	}
+	
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "PEDF_andromeda_turret_L_front"
+		is_side_slot = yes
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "PEDF_andromeda_turret_L_under"
+		is_side_slot = yes
+		locatorname = "large_gun_02"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "PEDF_patrol_turret_M_frontX2"
+		is_side_slot = yes
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "PEDF_patrol_turret_M_back"
+		is_side_slot = yes
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_01_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_02_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_03_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_04_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_05_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_06_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_01_l"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_02_l"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_03_l"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_04_l"
+	}
+	component_slot = {
+		name = "SMALL_GUN_11"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_05_l"
+	}
+	component_slot = {
+		name = "SMALL_GUN_12"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_06_l"
+	}
+	
+	
+
+	aux_utility_slots = 1
+	large_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+}
+
+
+
+
+ship_section_template = {
+	key = "PEDF_TITAN_Shunran_T"
+
+	ship_size = titan
+	
+	#NSC
+	# ship_size = Dreadnought
+	ship_size = Flagship
+
+	# #RS
+	# ship_size = rs_dreadnought
+	# ship_size = rs_heavy_dreadnought
+
+
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "PEDF_Shunran_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+		}
+		modifier = {
+			factor = 1000
+			has_technology = tech_Wave_motion_gun_Fleet
+		}		
+	}
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "titanic_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "PEDF_Shunran_turret_XL_front"
+		locatorname = "superlarge_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "PEDF_Shunran_turret_XL_front"
+		locatorname = "superlarge_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "PEDF_Shunran_turret_XL_front"
+		locatorname = "superlarge_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "PEDF_Shunran_turret_XL_back"
+		locatorname = "superlarge_gun_04"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = "PEDF_Shunran_turret_XL_under"
+		locatorname = "superlarge_gun_05"
+	}
+	
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "PEDF_andromeda_turret_L_front"
+		is_side_slot = yes
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "PEDF_andromeda_turret_L_under"
+		is_side_slot = yes
+		locatorname = "large_gun_02"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "PEDF_patrol_turret_M_frontX2"
+		is_side_slot = yes
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "PEDF_patrol_turret_M_back"
+		is_side_slot = yes
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_01_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_02_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_03_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_04_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_05_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "PEDF_escort_turret_PD_R45"
+		locatorname = "small_gun_06_r"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_01_l"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_02_l"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_03_l"
+	}
+	component_slot = {
+		name = "SMALL_GUN_10"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_04_l"
+	}
+	component_slot = {
+		name = "SMALL_GUN_11"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_05_l"
+	}
+	component_slot = {
+		name = "SMALL_GUN_12"
+		template = "PEDF_escort_turret_PD_L45"
+		locatorname = "small_gun_06_l"
+	}
+	
+	
+
+	aux_utility_slots = 1
+	large_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+}
+
+

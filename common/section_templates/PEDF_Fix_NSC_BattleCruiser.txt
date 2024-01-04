@@ -1,7 +1,7 @@
-
-
+#######################################################################
+# 護衛艦
 ship_section_template = {
-	key = "PEDF_CRUISER_escort"
+	key = "PEDF_BATTLE_CRUISER_escort"
 
 
 	# ship_size = cruiser
@@ -99,7 +99,325 @@ ship_section_template = {
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 80
+			alloys = 150
+		}
+	}
+}
+
+
+ship_section_template = {
+	key = "PEDFNP_LOC_CRUISER_escort_nsc"
+	ship_size = cruiser
+	
+	fits_on_slot = mid
+	fits_on_slot = stern
+	should_draw_components = no
+	entity = "PEDFNP_escort_loc_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_Wave_motion_gun_Fleet}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+		}
+		modifier = {
+			factor = 1
+			has_technology = tech_Wave_motion_gun_Fleet
+		}		
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "PEDFNP_LOC_escort_turret_M_upper"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "PEDFNP_LOC_escort_turret_M_upper"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "PEDFNP_LOC_escort_turret_M_under"
+		locatorname = "medium_gun_03"
+	}
+
+	medium_utility_slots = 4
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 150
+		}
+	}
+}
+
+#######################################################################
+# ドレッドノート / 通常カラー
+ship_section_template = {
+	key = "PEDF_BATTLE_CRUISER_Dreadnought"
+
+	# ship_size = battleship
+
+	#NSC
+	ship_size = Battlecruiser
+	# ship_size = Carrier
+
+
+	#RS
+	# ship_size = rs_battlecruiser
+	# ship_size = rs_carrier
+	# ship_size = rs_dreadnought
+
+
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "PEDF_dreadnought_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+		}
+		modifier = {
+			factor = 100
+			has_technology = tech_Wave_motion_gun_Fleet
+		}		
+	}
+	
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_01"
+	}
+	# component_slot = {
+	# 	name = "EXTRA_LARGE_02"
+	# 	template = "invisible_extra_large_fixed"
+	# 	locatorname = "xl_gun_01"
+	# }
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "PEDF_dreadnought_turret_L_front"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "PEDF_dreadnought_turret_L_front"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "PEDF_dreadnought_turret_L_back"
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "PEDF_dreadnought_turret_PD"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "PEDF_dreadnought_turret_PD"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "invisible_point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "invisible_point_defence_turret"
+		locatorname = "small_gun_04"
+	}
+
+	aux_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 280
+		}
+	}
+}
+
+#######################################################################
+# ドレッドノート / 地球防衛時カラー
+ship_section_template = {
+	key = "PEDF_BATTLE_CRUISER_Dreadnought_ED"
+
+
+	# ship_size = battleship
+
+	#NSC
+	ship_size = Battlecruiser
+	# ship_size = Carrier
+
+
+	#RS
+	# ship_size = rs_battlecruiser
+	# ship_size = rs_carrier
+	# ship_size = rs_dreadnought
+
+
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "PEDF_dreadnought_ED_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_Wave_motion_gun_Fleet }
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+		}
+		modifier = {
+			factor = 100
+			has_technology = tech_Wave_motion_gun_Fleet
+		}		
+	}
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_01"
+	}
+	# component_slot = {
+	# 	name = "EXTRA_LARGE_02"
+	# 	template = "invisible_extra_large_fixed"
+	# 	locatorname = "xl_gun_01"
+	# }
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "PEDF_dreadnought_ED_turret_L_front"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "PEDF_dreadnought_ED_turret_L_front"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "PEDF_dreadnought_ED_turret_L_back"
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "PEDF_dreadnought_turret_PD"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "PEDF_dreadnought_turret_PD"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "invisible_point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "invisible_point_defence_turret"
+		locatorname = "small_gun_04"
+	}
+
+	aux_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 280
+		}
+	}
+}
+
+
+ship_section_template = {
+	key = "PEDFNP_LOC_DREADNOUGHT_Dreadnought"
+
+	ship_size = Battlecruiser
+
+
+	
+	fits_on_slot = mid
+	fits_on_slot = stern
+
+	#NSC
+	fits_on_slot = mid1
+	fits_on_slot = mid2
+	fits_on_slot = mid3
+	fits_on_slot = mid4
+
+
+	should_draw_components = no
+	entity = "PEDFNP_dreadnought_loc_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_Wave_motion_gun_Fleet}
+	
+	ai_weight = {
+		weight = 0	
+	}
+	
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "PEDFNP_LOC_dreadnought_turret_L_front"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "PEDFNP_LOC_dreadnought_turret_L_front"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "PEDFNP_LOC_dreadnought_turret_L_back"
+		locatorname = "large_gun_03"
+	}
+	# component_slot = {
+	# 	name = "LARGE_GUN_04"
+	# 	template = "PEDFNP_LOC_dreadnought_turret_L_front"
+	# 	locatorname = "large_gun_01"
+	# }
+	# component_slot = {
+	# 	name = "LARGE_GUN_05"
+	# 	template = "PEDFNP_LOC_dreadnought_turret_L_front"
+	# 	locatorname = "large_gun_02"
+	# }
+	# component_slot = {
+	# 	name = "LARGE_GUN_06"
+	# 	template = "PEDFNP_LOC_dreadnought_turret_L_back"
+	# 	locatorname = "large_gun_03"
+	# }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "PEDFNP_LOC_dreadnought_turret_PD"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "PEDFNP_LOC_dreadnought_turret_PD"
+		locatorname = "small_gun_02"
+	}
+
+	large_utility_slots = 6
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 250
 		}
 	}
 }
