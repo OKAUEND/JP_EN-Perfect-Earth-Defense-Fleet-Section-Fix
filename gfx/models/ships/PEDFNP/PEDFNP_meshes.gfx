@@ -1,0 +1,467 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "PEDFNP_ese_shunran_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_ese_shunran.mesh"
+				animation = { id = "idle"			type = "PEDF_andromeda_idle_animation" }
+				animation = { id = "idle_to_combat_idle"			type = "PEDF_andromeda_idle_to_combat_idle_animation" }
+				animation = { id = "combat_idle"			type = "PEDF_andromeda_combat_idle_animation" }
+				animation = { id = "combat_idle_to_idle"			type = "PEDF_andromeda_combat_idle_to_idle_animation" }
+		scale = 1.0
+
+		meshsettings = {
+			name = "EarthDefenseForce_BattleshipShape.007"
+			index = 0
+			shader = "PdxMeshShip"
+			#texture_diffuse = "PEDFNP_ese_shunran_diff.dds"
+			#texture_normal = "PEDFNP_ese_shunran_norm.dds"
+			#texture_specular = "PEDFNP_ese_shunran_spec.dds"
+			texture_diffuse = "EarthDefenseForce_Battleship_Diff.dds"
+			texture_normal = "EarthDefenseForce_Battleship_Norm.dds"
+			texture_specular = "EarthDefenseForce_Battleship_Spec.dds"
+		}
+	}
+	pdxmesh = {
+		name = "PEDFNP_ese_shunran_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_ese_shunran_loc.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "PEDFNP_ese_shunran_turret_L_under_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_ese_shunran_turret_L_under.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "EarthDefenseForce_BattleshipShape"
+			index = 0
+			shader = "PdxMeshShip"
+			#texture_diffuse = "PEDFNP_ese_shunran_diff.dds"
+			#texture_normal = "PEDFNP_ese_shunran_norm.dds"
+			#texture_specular = "PEDFNP_ese_shunran_spec.dds"
+			texture_diffuse = "EarthDefenseForce_Battleship_Diff.dds"
+			texture_normal = "EarthDefenseForce_Battleship_Norm.dds"
+			texture_specular = "EarthDefenseForce_Battleship_Spec.dds"
+		}
+	}
+	pdxmesh = {
+		name = "PEDFNP_ese_shunran_turret_L_under_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_ese_shunran_turret_L_under_loc.mesh"
+		scale = 1.0
+	}
+
+
+
+	pdxmesh = {
+		name = "PEDFNP_bomber_mesh"
+		file = "gfx/models/ships/EarthDefenseForce_01/bomber/EarthDefenseForce_01_bomber.mesh"
+		#file = "gfx/models/ships/PEDFNP/bomber/PEDFNP_bomber.mesh"
+		scale = 1.8
+
+		meshsettings = {
+			name = "EarthDefenseForce_01_bomberShape_2"
+			index = 0
+			texture_diffuse = "EarthDefenseForce_01_bomber_Diff.dds"
+			texture_normal = "EarthDefenseForce_01_bomber_Norm.dds"
+			texture_specular = "EarthDefenseForce_01_bomber_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	pdxmesh = {
+		name = "PEDFNP_bomber_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_bomber_loc.mesh"
+		scale = 1.8
+	}
+
+	pdxmesh = {
+		name = "PEDFNP_fighter_mesh"
+		file = "gfx/models/ships/EarthDefenseForce_01/fighter/EarthDefenseForce_01_fighter.mesh"
+		#file = "gfx/models/ships/PEDFNP/fighter/PEDFNP_fighter.mesh"
+		scale = 0.6
+
+		meshsettings = {
+			name = "Box001Shape"
+			index = 0
+			texture_diffuse = "EDFcosmozero_Diff.dds"
+			texture_normal = "EDFcosmozero_Norm.dds"
+			texture_specular = "EDFcosmozero_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	pdxmesh = {
+		name = "PEDFNP_fighter_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_fighter_loc.mesh"
+		scale = 0.6
+	}
+
+
+	#ヤマト
+	#スケール過小のため、船体本体のスケール2倍
+	pdxmesh = {
+		name = "PEDFNP_yamato_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_yamato_loc.mesh"
+				animation = { id = "idle"			type = "PEDFNP_yamato_idle_animation" }
+				animation = { id = "combat_idle"			type = "PEDFNP_yamato_combat_idle_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_yamato_turret_L_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_yamato_turret_L_loc.mesh"
+			animation = { id = "front"			type = "PEDFNP_yamato_turret_L_idle_front_animation" }
+			animation = { id = "back"			type = "PEDFNP_yamato_turret_L_idle_back_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_yamato_turret_M_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_yamato_turret_M_loc.mesh"
+			animation = { id = "front"			type = "PEDFNP_yamato_turret_M_idle_front_animation" }
+			animation = { id = "back"			type = "PEDFNP_yamato_turret_M_idle_back_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_yamato_turret_S_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_yamato_turret_S_loc.mesh"
+			animation = { id = "left"			type = "PEDFNP_yamato_turret_PDS_idle_left_animation" }
+			animation = { id = "right"			type = "PEDFNP_yamato_turret_PDS_idle_right_animation" }
+			animation = { id = "front"			type = "PEDFNP_yamato_turret_PDS_idle_front_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_yamato_turret_PD_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_yamato_turret_PD_loc.mesh"
+			animation = { id = "left"			type = "PEDFNP_yamato_turret_PDS_idle_left_animation" }
+			animation = { id = "right"			type = "PEDFNP_yamato_turret_PDS_idle_right_animation" }
+			animation = { id = "front"			type = "PEDFNP_yamato_turret_PDS_idle_front_animation" }
+		scale = 1.0
+	}
+
+
+	#銀河
+	#スケール過小のため、船体本体のスケール2倍
+	pdxmesh = {
+		name = "PEDFNP_ginga_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_ginga_loc.mesh"
+				animation = { id = "idle"			type = "PEDFNP_yamato_idle_animation" }
+				animation = { id = "combat_idle"			type = "PEDFNP_yamato_combat_idle_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_ginga_turret_L_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_ginga_turret_L_loc.mesh"
+			animation = { id = "front"			type = "PEDFNP_yamato_turret_L_idle_front_animation" }
+			animation = { id = "back"			type = "PEDFNP_yamato_turret_L_idle_back_animation" }
+		scale = 1.0
+	}
+
+
+
+
+	#アンドロメダ級
+	pdxmesh = {
+		name = "PEDFNP_andromeda_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_andromeda_loc.mesh"
+				animation = { id = "idle"			type = "PEDFNP_andromeda_idle_animation" }
+				animation = { id = "idle_to_combat_idle"			type = "PEDFNP_andromeda_idle_to_combat_idle_animation" }
+				animation = { id = "combat_idle"			type = "PEDFNP_andromeda_combat_idle_animation" }
+				animation = { id = "combat_idle_to_idle"			type = "PEDFNP_andromeda_combat_idle_to_idle_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_andromeda_turret_L_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_andromeda_turret_L_loc.mesh"
+			animation = { id = "front"			type = "PEDFNP_andromeda_turret_L_idle_front_animation" }
+			animation = { id = "back"			type = "PEDFNP_andromeda_turret_L_idle_back_animation" }
+		scale = 1.0
+	}
+
+
+	#アンドロメダ級AI
+	pdxmesh = {
+		name = "PEDFNP_andromeda_AI_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_andromeda_AI_loc.mesh"
+				animation = { id = "idle"			type = "PEDFNP_andromeda_idle_animation" }
+				animation = { id = "idle_to_combat_idle"			type = "PEDFNP_andromeda_idle_to_combat_idle_animation" }
+				animation = { id = "combat_idle"			type = "PEDFNP_andromeda_combat_idle_animation" }
+				animation = { id = "combat_idle_to_idle"			type = "PEDFNP_andromeda_combat_idle_to_idle_animation" }
+		scale = 1.0
+	}
+
+
+	#アマテラス
+	pdxmesh = {
+		name = "PEDFNP_amaterasu_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_amaterasu_loc.mesh"
+				animation = { id = "idle"			type = "PEDFNP_andromeda_idle_animation" }
+				animation = { id = "idle_to_combat_idle"			type = "PEDFNP_andromeda_idle_to_combat_idle_animation" }
+				animation = { id = "combat_idle"			type = "PEDFNP_andromeda_combat_idle_animation" }
+				animation = { id = "combat_idle_to_idle"			type = "PEDFNP_andromeda_combat_idle_to_idle_animation" }
+		scale = 1.0
+	}
+
+
+
+
+
+	#ヤマナミスペシャル
+	pdxmesh = {
+		name = "PEDFNP_yamanamispecial_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_yamanamispecial_loc.mesh"
+				animation = { id = "idle"			type = "PEDFNP_andromeda_idle_animation" }
+				animation = { id = "idle_to_combat_idle"			type = "PEDFNP_andromeda_idle_to_combat_idle_animation" }
+				animation = { id = "combat_idle"			type = "PEDFNP_andromeda_combat_idle_animation" }
+				animation = { id = "combat_idle_to_idle"			type = "PEDFNP_andromeda_combat_idle_to_idle_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_yamanamispecial_turret_L_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_yamanamispecial_turret_L_loc.mesh"
+			animation = { id = "front"			type = "PEDFNP_andromeda_turret_L_idle_front_animation" }
+			animation = { id = "back"			type = "PEDFNP_andromeda_turret_L_idle_back_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_yamanamispecial_addlocators_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_yamanamispecial_addlocators_loc.mesh"
+		scale = 1.0
+	}
+
+
+
+	#アンドロメダ級空母型
+	pdxmesh = {
+		name = "PEDFNP_antares_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_antares_loc.mesh"
+				animation = { id = "idle"			type = "PEDFNP_andromeda_idle_animation" }
+				animation = { id = "idle_to_combat_idle"			type = "PEDFNP_andromeda_idle_to_combat_idle_animation" }
+				animation = { id = "combat_idle"			type = "PEDFNP_andromeda_combat_idle_animation" }
+				animation = { id = "combat_idle_to_idle"			type = "PEDFNP_andromeda_combat_idle_to_idle_animation" }
+		scale = 1.0
+	}
+
+
+
+
+
+
+	#ドレッドノート級
+	pdxmesh = {
+		name = "PEDFNP_dreadnought_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_dreadnought_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_dreadnought_turret_L_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_dreadnought_turret_L_loc.mesh"
+			animation = { id = "front"			type = "PEDFNP_dreadnought_turret_L_idle_front_animation" }
+			animation = { id = "back"			type = "PEDFNP_dreadnought_turret_L_idle_back_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_dreadnought_turret_PD_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_dreadnought_turret_PD_loc.mesh"
+		scale = 1.0
+	}
+
+
+
+
+	#護衛艦
+	pdxmesh = {
+		name = "PEDFNP_escort_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_escort_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_escort_turret_M_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_escort_turret_M_loc.mesh"
+			animation = { id = "upper"			type = "PEDFNP_escort_turret_M_idle_upper_animation" }
+			animation = { id = "under"			type = "PEDFNP_escort_turret_M_idle_under_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_escort_turret_PD_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_escort_turret_PD_loc.mesh"
+			animation = { id = "front"			type = "PEDFNP_escort_turret_PD_idle_front_animation" }
+			animation = { id = "back"			type = "PEDFNP_escort_turret_PD_idle_back_animation" }
+		scale = 1.0
+	}
+
+
+
+
+	#パトロール艦
+	pdxmesh = {
+		name = "PEDFNP_patrol_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_patrol_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_patrol_turret_M_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_patrol_turret_M_loc.mesh"
+			animation = { id = "upper"			type = "PEDFNP_patrol_turret_M_idle_upper_animation" }
+			animation = { id = "under"			type = "PEDFNP_patrol_turret_M_idle_under_animation" }
+		scale = 1.0
+	}
+
+
+
+
+
+
+	#タイコンデロガ
+	pdxmesh = {
+		name = "PEDFNP_ticonderoga_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_ticonderoga_loc.mesh"
+				animation = { id = "idle"			type = "PEDFNP_ticonderoga_idle_animation" }
+				animation = { id = "idle_to_combat_idle"			type = "PEDFNP_ticonderoga_idle_to_combat_idle_animation" }
+				animation = { id = "combat_idle"			type = "PEDFNP_ticonderoga_combat_idle_animation" }
+				animation = { id = "combat_idle_to_idle"			type = "PEDFNP_ticonderoga_combat_idle_to_idle_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_ticonderoga_turret_M1_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_ticonderoga_turret_M1_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_ticonderoga_turret_M2_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_ticonderoga_turret_M2_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_ticonderoga_turret_M3_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_ticonderoga_turret_M3_loc.mesh"
+			animation = { id = "front"			type = "PEDFNP_ticonderoga_turret_M3_idle_front_animation" }
+			animation = { id = "back"			type = "PEDFNP_ticonderoga_turret_M3_idle_back_animation" }
+		scale = 1.0
+	}
+
+
+	#サラトガ
+	pdxmesh = {
+		name = "PEDFNP_saratoga_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_saratoga_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_saratoga_turret_M1_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_saratoga_turret_M1_loc.mesh"
+			animation = { id = "front"			type = "PEDFNP_saratoga_turret_M1_idle_front_animation" }
+			animation = { id = "back"			type = "PEDFNP_saratoga_turret_M1_idle_back_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_saratoga_turret_M2_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_saratoga_turret_M2_loc.mesh"
+		scale = 1.0
+	}
+
+	#磯風改
+	pdxmesh = {
+		name = "PEDFNP_isokaze_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_isokaze_loc.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "PEDFNP_isokaze_turret_S1_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_isokaze_turret_S1_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_isokaze_turret_S2_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_isokaze_turret_S2_loc.mesh"
+		scale = 1.0
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#旧作巡洋艦
+	pdxmesh = {
+		name = "PEDFNP_oldcruiser_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_oldcruiser_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_oldcruiser_turret_M1_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_oldcruiser_turret_M1_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_oldcruiser_turret_M2_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_oldcruiser_turret_M2_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_oldcruiser_turret_L_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_oldcruiser_turret_L_loc.mesh"
+			animation = { id = "front"			type = "PEDFNP_oldcruiser_turret_L_idle_front_animation" }
+			animation = { id = "back"			type = "PEDFNP_oldcruiser_turret_L_idle_back_animation" }
+		scale = 1.0
+	}
+
+
+
+	#旧作駆逐艦
+	#スケール過小のため、船体本体のスケール2倍
+	pdxmesh = {
+		name = "PEDFNP_olddestroyer_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_olddestroyer_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_olddestroyer_turret_S_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_olddestroyer_turret_S_loc.mesh"
+			animation = { id = "upper"			type = "PEDFNP_olddestroyer_turret_S_idle_upper_animation" }
+			animation = { id = "under"			type = "PEDFNP_olddestroyer_turret_S_idle_under_animation" }
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_olddestroyer_turret_PD_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_olddestroyer_turret_PD_loc.mesh"
+			animation = { id = "front"			type = "PEDFNP_olddestroyer_turret_PD_idle_front_animation" }
+			animation = { id = "back"			type = "PEDFNP_olddestroyer_turret_PD_idle_back_animation" }
+		scale = 1.0
+	}
+
+
+
+	#旧作宇宙空母
+	pdxmesh = {
+		name = "PEDFNP_oldlightcarrier_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_oldlightcarrier_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_oldlightcarrier_turret_L_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_oldlightcarrier_turret_L_loc.mesh"
+		scale = 1.0
+	}
+	#バトルキャリア
+	pdxmesh = {
+		name = "PEDFNP_oldbattlecarrier_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_oldbattlecarrier_loc.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "PEDFNP_oldbattlecarrier_turret_L_loc_mesh"
+		file = "gfx/models/ships/PEDFNP/PEDFNP_oldbattlecarrier_turret_L_loc.mesh"
+		scale = 1.0
+	}
+}
