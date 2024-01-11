@@ -8,25 +8,27 @@ ship_section_template = {
 	entity = "PEDF_murasame_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 1000
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				NOT = { has_technology = tech_Battlecruiser_1 }
 			}
 		}
 		modifier = {
 			factor = 0
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
-				has_technology = tech_Battlecruiser_
+				has_technology = tech_dtf_pretech
+				has_technology = tech_Battlecruiser_1
 			}
 		}		
 	}
@@ -91,25 +93,27 @@ ship_section_template = {
 	entity = "PEDF_murasame_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 1000
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				NOT = { has_technology = tech_Battlecruiser_1 }
 			}
 		}
 		modifier = {
 			factor = 0
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
-				has_technology = tech_Battlecruiser_
+				has_technology = tech_dtf_pretech
+				has_technology = tech_Battlecruiser_1
 			}
 		}			
 	}
@@ -177,25 +181,27 @@ ship_section_template = {
 	entity = "PEDF_saratoga_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 0
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				NOT = { has_technology = tech_Battlecruiser_1 }
 			}
 		}
 		modifier = {
 			factor = 1000
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
-				has_technology = tech_Battlecruiser_
+				has_technology = tech_dtf_pretech
+				has_technology = tech_Battlecruiser_1
 			}
 		}		
 	}
@@ -261,25 +267,27 @@ ship_section_template = {
 	entity = "PEDF_saratoga_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 0
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				NOT = { has_technology = tech_Battlecruiser_1 }
 			}
 		}
 		modifier = {
 			factor = 1000
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
-				has_technology = tech_Battlecruiser_
+				has_technology = tech_dtf_pretech
+				has_technology = tech_Battlecruiser_1
 			}
 		}		
 	}
@@ -346,16 +354,18 @@ ship_section_template = {
 	entity = "PEDF_common_locator_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
+			has_technology = tech_dtf_pretech
 		}		
 	}
 	

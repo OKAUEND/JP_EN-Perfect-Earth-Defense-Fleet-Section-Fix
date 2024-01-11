@@ -20,17 +20,19 @@ ship_section_template = {
 	entity = "PEDF_escort_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 100
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				years_passed > 50
 				years_passed < 80
 			}
@@ -38,7 +40,7 @@ ship_section_template = {
 		modifier = {
 			factor = 0
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				years_passed > 80
 			}
 		}	
@@ -126,17 +128,19 @@ ship_section_template = {
 	entity = "PEDFNP_escort_loc_entity"
 	icon = "GFX_ship_part_core_mid"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet}
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 100
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				years_passed > 50
 				years_passed < 80
 			}
@@ -144,7 +148,7 @@ ship_section_template = {
 		modifier = {
 			factor = 0
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				years_passed > 80
 			}
 		}		
@@ -200,17 +204,19 @@ ship_section_template = {
 	entity = "PEDF_dreadnought_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 0
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				years_passed > 50
 				years_passed < 80
 			}
@@ -218,7 +224,7 @@ ship_section_template = {
 		modifier = {
 			factor = 100
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				years_passed > 80
 			}
 		}	
@@ -305,17 +311,19 @@ ship_section_template = {
 	entity = "PEDF_dreadnought_ED_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 0
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				years_passed > 50
 				years_passed < 80
 			}
@@ -323,7 +331,7 @@ ship_section_template = {
 		modifier = {
 			factor = 0
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				years_passed > 80
 			}
 		}	
@@ -407,17 +415,19 @@ ship_section_template = {
 	entity = "PEDFNP_dreadnought_loc_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet}
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 0
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				years_passed > 50
 				years_passed < 80
 			}
@@ -425,7 +435,7 @@ ship_section_template = {
 		modifier = {
 			factor = 100
 			AND = {
-				has_technology = tech_Wave_motion_gun_Fleet
+				has_technology = tech_dtf_pretech
 				years_passed > 80
 			}
 		}	

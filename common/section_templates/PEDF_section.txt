@@ -20,16 +20,18 @@
 # 	entity = "PEDF_yamato_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -174,16 +176,18 @@
 # 	entity = "PEDF_ginga_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -294,16 +298,18 @@
 # 	entity = "PEDF_andromeda_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -410,16 +416,18 @@
 # 	entity = "PEDF_andromeda_Blue_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -526,16 +534,18 @@
 # 	entity = "PEDF_andromeda_AI_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -672,16 +682,18 @@
 # 	entity = "PEDF_amaterasu_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -818,16 +830,18 @@
 # 	entity = "PEDF_yamanamispecial_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -968,12 +982,14 @@
 # 	entity = "PEDF_yamanamispecial_addlocators_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 0
@@ -981,7 +997,7 @@
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -1124,16 +1140,18 @@
 # 	entity = "PEDF_antares_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -1268,16 +1286,18 @@
 # 	entity = "PEDF_apollonome_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -1412,16 +1432,18 @@
 # 	entity = "PEDF_dreadnought_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -1498,16 +1520,18 @@
 # 	entity = "PEDF_dreadnought_ED_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -1583,16 +1607,18 @@
 # 	entity = "PEDF_dreadnought_MB_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -1670,16 +1696,18 @@
 # 	entity = "PEDF_escort_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -1778,16 +1806,18 @@
 # 	entity = "PEDF_patrol_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -1868,16 +1898,18 @@
 # 	entity = "PEDF_ticonderoga_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -1960,16 +1992,18 @@
 # 	entity = "PEDF_ticonderoga_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2040,16 +2074,18 @@
 # 	entity = "PEDF_saratoga_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2106,16 +2142,18 @@
 # 	entity = "PEDF_murasame_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2176,16 +2214,18 @@
 # 	entity = "PEDF_saratoga_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2242,16 +2282,18 @@
 # 	entity = "PEDF_murasame_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2313,16 +2355,18 @@
 # 	entity = "PEDF_isokaze_entity"
 # 	icon = "GFX_ship_part_core_mid"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2364,16 +2408,18 @@
 # 	entity = "PEDF_yukikaze_entity"
 # 	icon = "GFX_ship_part_core_mid"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2451,16 +2497,18 @@
 # 	entity = "PEDF_oldcruiser_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2537,16 +2585,18 @@
 # 	entity = "PEDF_olddestroyer_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2644,16 +2694,18 @@
 # 	entity = "PEDF_oldlightcarrier_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2734,16 +2786,18 @@
 # 	entity = "PEDF_oldbattlecarrier_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2829,16 +2883,18 @@
 # 	entity = "PEDF_common_locator_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2892,16 +2948,18 @@
 # 	entity = "PEDF_common_locator_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2951,16 +3009,18 @@
 # 	entity = "PEDF_common_locator_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -2984,16 +3044,18 @@
 # 	entity = "PEDF_common_locator_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -3033,16 +3095,18 @@
 # 	entity = "PEDF_common_locator_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	
@@ -3081,16 +3145,18 @@
 # 	entity = "PEDF_common_locator_entity"
 # 	icon = "GFX_ship_part_core_bow"
 	
-# 	prerequisites = { tech_Wave_motion_gun_Fleet }
+# 	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 # 	ai_weight = {
 # 		modifier = {
 # 			factor = 0
-# 			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+# 			NOT = { has_technology = tech_dtf_pretech }
 # 		}
 # 		modifier = {
 # 			factor = 100
-# 			has_technology = tech_Wave_motion_gun_Fleet
+# 			has_technology = tech_dtf_pretech
 # 		}		
 # 	}
 	

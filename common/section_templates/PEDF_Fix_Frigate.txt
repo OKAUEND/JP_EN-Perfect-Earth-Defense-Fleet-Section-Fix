@@ -8,16 +8,18 @@ ship_section_template = {
 	entity = "PEDF_yukikaze_entity"
 	icon = "GFX_ship_part_core_mid"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 1000
-			has_technology = tech_Wave_motion_gun_Fleet
+			has_technology = tech_dtf_pretech
 		}		
 	}
 	
@@ -58,16 +60,18 @@ ship_section_template = {
 	entity = "PEDF_isokaze_entity"
 	icon = "GFX_ship_part_core_mid"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 1000
-			has_technology = tech_Wave_motion_gun_Fleet
+			has_technology = tech_dtf_pretech
 		}		
 	}
 	

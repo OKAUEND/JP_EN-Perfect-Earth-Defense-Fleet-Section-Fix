@@ -21,16 +21,18 @@ ship_section_template = {
 	entity = "PEDF_dreadnought_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
+			has_technology = tech_dtf_pretech
 		}		
 	}
 	component_slot = {
@@ -113,16 +115,18 @@ ship_section_template = {
 	entity = "PEDF_dreadnought_ED_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 0
-			has_technology = tech_Wave_motion_gun_Fleet
+			has_technology = tech_dtf_pretech
 		}		
 	}
 	
@@ -205,16 +209,18 @@ ship_section_template = {
 	entity = "PEDF_dreadnought_MB_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet }
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 0
-			has_technology = tech_Wave_motion_gun_Fleet
+			has_technology = tech_dtf_pretech
 		}		
 	}
 	
@@ -296,16 +302,18 @@ ship_section_template = {
 	entity = "PEDFNP_dreadnought_loc_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_Wave_motion_gun_Fleet}
+	prerequisites = {  "tech_dtf_pretech" }
+
+
 	
 	ai_weight = {
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_Wave_motion_gun_Fleet }
+			NOT = { has_technology = tech_dtf_pretech }
 		}
 		modifier = {
 			factor = 100
-			has_technology = tech_Wave_motion_gun_Fleet
+			has_technology = tech_dtf_pretech
 		}		
 	}
 	
